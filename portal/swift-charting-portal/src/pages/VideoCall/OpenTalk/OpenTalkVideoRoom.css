@@ -1,0 +1,38 @@
+.OTPublisherContainer {
+    border-radius: 0.6rem;
+  }
+  
+  .OTSubscriberContainer {
+    border-radius: 0.6rem !important;
+  }
+
+  .OTPublisherContainer .OT_video-poster {
+    display: none !important;
+  }
+
+  .OT_edge-bar-item.OT_mode-auto {
+    display: none !important;
+  }
+
+  .OTcontainer > div:first-child {
+    width: 100% !important;
+  }
+
+  .OTPublisherContainer .OT_audio-level-meter:before {
+    display: none !important;
+  }
+
+  .OTPublisherContainer .OT_fit-mode-cover {
+    display: none !important;
+  }
+
+  .OT_audio-level-meter__audio-only-img:before {
+    display:none !important
+  }
+
+.subscriberContainer > div{
+  width: 100% !important;
+  max-width: 18vw !important;
+}
+
+  

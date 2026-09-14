@@ -1,0 +1,61 @@
+# version: '3'
+
+# services:
+#   node-app:
+#     build: .
+#     image: node-app
+#     environment:
+#       - MONGODB_URL=mongodb://mongodb:27017/node-boilerplate
+#     ports:
+#       - '3000:3000'
+#     depends_on:
+#       - mongodb
+#     volumes:
+#       - .:/usr/src/node-app
+#     networks:
+#       - node-network
+
+#   mongodb:
+#     image: mongo:4.2.1-bionic
+#     ports:
+#       - '27017:27017'
+#     volumes:
+#       - dbdata:/data/db
+#     networks:
+#       - node-network
+
+# volumes:
+#   dbdata:
+
+# networks:
+#   node-network:
+#     driver: bridge
+version: "3"
+
+services:
+  node-app:
+    build: .
+    image: node-app
+    ports:
+      - "5002:5002"
+    environment:
+      - DB_HOST=host.docker.internal
+      - DB_PORT=5433
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+    depends_on:
+      - redis
+    networks:
+      - node-network
+
+  redis:
+    image: redis:7
+    container_name: swift-redis
+    ports:
+      - "6379:6379"
+    networks:
+      - node-network
+
+networks:
+  node-network:
+    driver: bridge

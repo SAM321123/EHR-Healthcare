@@ -1,0 +1,13 @@
+.chatItem:hover {
+    cursor: pointer;
+    background: #ededed;
+}
+#messagesContainer {
+    height: 400px;
+    overflow-y: auto;
+  }
+  .chatItem.active {
+    background: #ededed;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+}

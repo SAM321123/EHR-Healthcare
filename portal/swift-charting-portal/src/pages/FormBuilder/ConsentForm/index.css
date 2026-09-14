@@ -1,0 +1,24 @@
+input.consent-input-container{
+    border: none;
+    background-color: #fffae5;
+    border-bottom: 1px solid #ffa500!important;
+}
+input.consent-input-container:active:active{
+    border: none;
+    border-bottom: 1px solid black;
+}
+input.consent-input-container:focus-visible{
+    border: none !important;
+    outline: unset;
+    border-bottom: 1px solid black !important;
+}
+input.consent-checkbox-container{
+    height:20px;
+    width: 40px;
+}
+input.consent-checkbox-container:checked{
+    background-color: #2196F3;
+}
+input.consent-checkbox-container:disabled{
+    background-color: #2196F3;
+}

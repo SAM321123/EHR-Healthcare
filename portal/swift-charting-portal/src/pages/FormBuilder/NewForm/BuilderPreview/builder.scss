@@ -1,0 +1,38 @@
+.formBuilder-container {
+
+    .rowGroup-container {
+        display: 'flex';
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 19px;
+    }
+    .editable-field{
+        display: flex; 
+        position: relative;
+        padding: 8px;
+        cursor: pointer;
+        justify-content: space-between;
+        .edit-field-icons{
+            display: flex;
+            position: absolute;
+            right: 0;
+            top: -10px;
+            visibility: hidden;
+        }
+    }
+    .editable-field:hover{
+        // border: 1px dotted;
+        // border-radius: 4px;
+        .edit-field-icons{
+            visibility: visible;
+        }
+    }
+    .builder-form-disable {
+        top: 0px;
+        left: 0px;
+        bottom: 0px;
+        right: 0px;
+        pointer-events: none;
+      }
+
+}

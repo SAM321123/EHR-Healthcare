@@ -1,0 +1,68 @@
+pipeline {
+    agent any
+    stages {
+        stage('Building & Pushing Image') {
+            steps {
+                // sh 'sudo -i'
+                // sh 'apt-get update'
+                // sh 'apt-get install -y curl jq'
+                script {
+                    env.TAG = "${env.BUILD_NUMBER}"
+                    withCredentials([string(credentialsId: 'AWS_ACCESS_KEY_ID', variable: 'AWS_ACCESS_KEY_ID')]) {
+                    sh 'aws configure set aws_access_key_id "${AWS_ACCESS_KEY_ID}"'
+                    }
+                    withCredentials([string(credentialsId: 'AWS_SECRET_ACCESS_KEY', variable: 'AWS_SECRET_ACCESS_KEY')]) {
+                    sh 'aws configure set aws_secret_access_key "${AWS_SECRET_ACCESS_KEY}"'
+                    }
+                    withCredentials([string(credentialsId: 'AWS_DEFAULT_REGION', variable: 'AWS_DEFAULT_REGION')]) {
+                    sh 'eval $(aws ecr get-login --no-include-email --region $AWS_DEFAULT_REGION | sed \'s;https://;;g\')'
+                     }
+                     withCredentials([string(credentialsId: 'DOPE_DOCTORS_QA_S3_BUCKET', variable: 'DOPE_DOCTORS_QA_S3_BUCKET')]) {
+                    sh 'aws s3 cp s3://$DOPE_DOCTORS_QA_S3_BUCKET/frontend/.env .'
+                    }
+                    withCredentials([string(credentialsId: 'DOPE_DOCTORS_QA_UI_IMAGE_NAME', variable: 'DOPE_DOCTORS_QA_UI_IMAGE_NAME')]) {
+                    // sh 'docker build -t "$DOPE_DOCTORS_QA_UI_IMAGE_NAME":"$TAG" .'
+                    sh 'docker build -t "$DOPE_DOCTORS_QA_UI_IMAGE_NAME":"$TAG" -f Dockerfile_QA .'
+                    sh 'docker push $DOPE_DOCTORS_QA_UI_IMAGE_NAME:$TAG'
+                    sh 'docker system prune -a -f'
+                }
+            }
+        }
+        }
+        stage('Archive and Upload Files'){
+    steps {
+        script {
+            env.TAG = "${env.BUILD_NUMBER}"
+            sh 'cat frontend-compose.template.yml'
+            withCredentials([string(credentialsId: 'DOPE_DOCTORS_QA_UI_IMAGE_NAME', variable: 'DOPE_DOCTORS_QA_UI_IMAGE_NAME')]) {
+            sh 'sed -e "s|\\${ECR_REGISTRY}|$DOPE_DOCTORS_QA_UI_IMAGE_NAME|g" -e "s|\\${TAG}|$TAG|g" frontend-compose.template.yml > frontend-compose.yml'
+            }
+            sh 'cat frontend-compose.yml'
+            withCredentials([string(credentialsId: 'AWS_DEFAULT_REGION', variable: 'AWS_DEFAULT_REGION'),
+                            string(credentialsId: 'DOPE_DOCTORS_QA_S3_BUCKET', variable: 'DOPE_DOCTORS_QA_S3_BUCKET')]) {
+            // sh 'aws s3 cp frontend-compose.yml s3://$DOPE_DOCTORS_QA_S3_BUCKET/frontend/ --region $AWS_DEFAULT_REGION'
+            // sh 'apt-get install -y zip'
+            sh 'zip -r archive.zip frontend-compose.yml appspec.yml after_install.sh before_install.sh'
+            withCredentials([string(credentialsId: 'DOPE_DOCTORS_QA_S3_BUCKET', variable: 'DOPE_DOCTORS_QA_S3_BUCKET')]) {
+            sh 'aws s3 cp archive.zip s3://$DOPE_DOCTORS_QA_S3_BUCKET/frontend/archive.zip'
+                }
+            }
+        }
+    }
+}
+        stage('Deploy') {
+            steps {
+                script {
+                    withCredentials([string(credentialsId: 'DOPE_DOCTORS_QA_APPLICATION_NAME', variable: 'DOPE_DOCTORS_QA_APPLICATION_NAME'),
+                                    string(credentialsId: 'DOPE_DOCTORS_QA_S3_BUCKET', variable: 'DOPE_DOCTORS_QA_S3_BUCKET'),
+                                    string(credentialsId: 'DOPE_DOCTORS_QA_DEPLOYMENT_GROUP', variable: 'DOPE_DOCTORS_QA_DEPLOYMENT_GROUP'),
+                                    string(credentialsId: 'AWS_DEFAULT_REGION', variable: 'AWS_DEFAULT_REGION')]) {
+                    def deploymentId = sh(script: 'aws deploy create-deployment --application-name "$DOPE_DOCTORS_QA_APPLICATION_NAME" --deployment-group "$DOPE_DOCTORS_QA_DEPLOYMENT_GROUP" --s3-location bucket="$DOPE_DOCTORS_QA_S3_BUCKET",key=frontend/archive.zip,bundleType=zip --query "deploymentId" --output text', returnStdout: true).trim()
+                    echo "Deployment ID: ${deploymentId}"
+                    sh "aws deploy wait deployment-successful --deployment-id ${deploymentId} --region $AWS_DEFAULT_REGION"
+                    }
+                }
+            }
+        }
+         }
+    }

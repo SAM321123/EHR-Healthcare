@@ -1,0 +1,21 @@
+.dashboard-header{
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0;
+    flex-wrap: wrap;
+    margin-right: 14px;
+
+    .header-container-right-content{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .header-title{
+        color: #2a4a79!important;
+        font-weight: 700;
+        font-size: larger;
+    }
+}

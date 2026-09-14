@@ -1,0 +1,70 @@
+const pronouns = [
+  {
+    name: 'He, him, his',
+    code: 'he_him_his',
+    description: '',
+    globalCategoryTypeCode: 'pronouns',
+    isDeleted: false,
+    isActive: true,
+  },
+  {
+    name: 'She, her, hers',
+    code: 'she_her_hers',
+    description: '',
+    globalCategoryTypeCode: 'pronouns',
+    isDeleted: false,
+    isActive: true,
+  },
+  {
+    name: 'They, them, theirs,',
+    code: 'they_them_theirs,',
+    description: '',
+    globalCategoryTypeCode: 'pronouns',
+    isDeleted: false,
+    isActive: true,
+  },
+  {
+    name: 'He, They',
+    code: 'he_they',
+    description: '',
+    globalCategoryTypeCode: 'pronouns',
+    isDeleted: false,
+    isActive: true,
+  },
+  {
+    name: 'She, They',
+    code: 'she_they',
+    description: '',
+    globalCategoryTypeCode: 'pronouns',
+    isDeleted: false,
+    isActive: true,
+  },
+  {
+    name: 'No Pronouns, use my name',
+    code: 'no_pronouns_use_my_name',
+    description: '',
+    globalCategoryTypeCode: 'pronouns',
+    isDeleted: false,
+    isActive: true,
+  },
+  {
+    name: 'Prefer not to answer',
+    code: 'prefer_not_to_answer',
+    description: '',
+    globalCategoryTypeCode: 'pronouns',
+    isDeleted: false,
+    isActive: true,
+  },
+  {
+    name: 'Unknown',
+    code: 'unknown_pronouns',
+    description: '',
+    globalCategoryTypeCode: 'pronouns',
+    isDeleted: false,
+    isActive: true,
+  },
+];
+
+module.exports = {
+  pronouns,
+};

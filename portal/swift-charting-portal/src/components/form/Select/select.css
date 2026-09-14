@@ -1,0 +1,3 @@
+.MuiMenu-list .MuiMenuItem-root.Mui-disabled{
+    display: none;
+  }

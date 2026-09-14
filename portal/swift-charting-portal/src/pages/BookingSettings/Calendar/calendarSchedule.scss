@@ -1,0 +1,11 @@
+.form-calendar-schedule {
+    position: relative;
+    .schedule-form-disable {
+      top: 0px;
+      left: 0px;
+      bottom: 0px;
+      right: 0px;
+      pointer-events: none;
+      cursor: not-allowed;
+    }
+  }

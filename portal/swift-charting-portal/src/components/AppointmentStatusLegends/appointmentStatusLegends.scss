@@ -1,0 +1,49 @@
+
+.dashboard-legends-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .legends-item {
+    display: flex;
+    align-items: center;
+    padding: 8px 8px 0 8px;
+
+    .color-item {
+      height: 14px;
+      width: 14px;
+      margin-right: 8px;
+    }
+    .color-label {
+    font-size: 0.7rem;
+    color: #2a4a79;
+    font-weight: 400;
+    line-height: 1.2rem;
+    }
+
+    .color-item-10min {
+      background-color:pink;
+    }
+    .color-item-20min {
+      background-color: blue;
+    }
+    .color-item-30min {
+      background-color:grey;
+    }
+    .color-item-New {
+      background-color: red;
+    }
+    .color-item-Cancel {
+      background-color: green;
+    }
+    .color-item-ReadyForPractitioner {
+      background-color: #808000;
+    }
+    .color-item-CheckIn{
+      background-color: orange;
+    }
+    .color-item-waiting{
+      background-color: #800080;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.pagination_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 14px;
+
+  button {
+    font-family: Poppins-Medium, sans-serif;
+    font-size: 11.68px;
+    line-height: 19.47px;
+    font-weight: 500;
+
+  }
+.Mui-selected{
+  background-color: #fff;
+}
+  .Mui-disabled {
+    opacity: 50%;
+    svg{
+      color:#fff
+    }
+  }
+}

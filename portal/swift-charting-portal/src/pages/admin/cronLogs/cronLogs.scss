@@ -1,0 +1,30 @@
+.cron-log-filters {
+  align-items: center;
+  gap: 8px;
+
+  .left-content {
+    flex: 0 0 240px;
+    min-width: 240px;
+  }
+
+  .right-content {
+    gap: 8px;
+    flex-wrap: nowrap !important;
+  }
+}
+
+@media (max-width: 1400px) {
+  .cron-log-filters {
+    flex-wrap: wrap !important;
+
+    .left-content {
+      flex: 1 1 100%;
+      min-width: 100%;
+    }
+
+    .right-content {
+      justify-content: flex-start !important;
+      flex-wrap: wrap !important;
+    }
+  }
+}

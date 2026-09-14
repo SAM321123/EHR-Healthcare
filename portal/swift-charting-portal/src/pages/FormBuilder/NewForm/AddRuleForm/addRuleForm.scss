@@ -1,0 +1,61 @@
+.add-rules-container {
+  width: 500px;
+  padding-right: 12px;
+  padding-left: 24px;
+  .add-rules {
+    margin: 15px 0;
+  }
+  .rules-container{
+    display: flex;
+    align-items: center;
+
+    .rules {
+      background: #eeeded;
+      box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.15);
+      padding: 5px 15px;
+      margin: 15px 0;
+      cursor: pointer;
+    }
+  }
+
+  .field-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+
+    .field-index {
+      display: flex;
+      height: 30px;
+      width: 30px;
+      border-radius: 15px;
+      background-color: #bbb;
+      color: #fff;
+      font-size: 25px;
+      justify-content: center;
+      align-items: center;
+      margin: 15px 0;
+    }
+
+    .rules-list {
+      margin-left: 20px;
+      width: 90%;
+
+      .drop-down-container {
+        min-width: 100%;
+      }
+
+      .list {
+        padding: 10px 15px;
+        border: 1px solid #bbb;
+        min-height: 100px;
+        border-radius: 4px;
+      }
+    }
+
+    .active {
+      background: #337AB7;
+    }
+  }
+
+}

@@ -1,0 +1,71 @@
+@media print {
+
+    body{
+        padding: 0px !important;
+    }
+    td .MuiRadio-root{
+        display: none !important;
+    }
+    td {
+        padding: 5px;
+    }
+    td label{
+        padding: 0px !important;
+        margin: 0px !important;
+    } 
+    .MuiCardContent-root{
+        padding: 5px !important;
+    }
+
+      .MuiCardContent-root {
+        padding: 0;
+        margin: 0;
+      }
+      .MuiGrid-container {
+        display: block;
+        width: 100%;
+      }
+      table{
+        transform: scale(0.9);
+        transform-origin: top left;
+      }
+      th{
+        border: 1px solid black !important;
+      }     
+       table td{
+        border: 1px solid !important;
+
+      }
+      table .MuiInputBase-input{
+        display: none !important;
+
+      }
+
+      table .MuiInputBase-root {
+        display: none !important;
+      }
+      table tr{
+        border: 1px solid black !important;
+      }
+      .printButtonWrapper{
+        display: none !important;
+      }
+      input::placeholder {
+        display: none !important;
+        color: white !important;
+    }
+      
+    .preview_table_container {
+      overflow:unset !important;
+      max-height: unset !important;
+    }
+  
+    .type-draw-text,.clear-text,.esignature-text{
+      display: none;
+    }
+    .signature-text{
+      display: block !important;
+    }
+    /* Add any other specific print styles */
+  }
+  

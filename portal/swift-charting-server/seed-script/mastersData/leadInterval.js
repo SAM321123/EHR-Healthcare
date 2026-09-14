@@ -1,0 +1,70 @@
+const leadInterval = [
+    {
+      name: '10 minutes',
+      code: '10_minutes',
+      description: '',
+      globalCategoryTypeCode: 'lead_interval',
+      isDeleted: false,
+      isActive: true,
+      sortOrder: 1,
+    },
+    {
+        name: '30 minutes',
+        code: '30_minutes',
+        description: '',
+        globalCategoryTypeCode: 'lead_interval',
+        isDeleted: false,
+        isActive: true,
+        sortOrder: 2,
+      },
+      {
+        name: '1 hour',
+        code: '1_hours',
+        description: '',
+        globalCategoryTypeCode: 'lead_interval',
+        isDeleted: false,
+        isActive: true,
+        sortOrder: 3,
+      },
+      {
+        name: '2 hours',
+        code: '2_hours',
+        description: '',
+        globalCategoryTypeCode: 'lead_interval',
+        isDeleted: false,
+        isActive: true,
+        sortOrder: 4,
+      },
+      {
+        name: '3 hour',
+        code: '3_hours',
+        description: '',
+        globalCategoryTypeCode: 'lead_interval',
+        isDeleted: false,
+        isActive: true,
+        sortOrder: 5,
+      },
+      {
+        name: '4 hour',
+        code: '4_hours',
+        description: '',
+        globalCategoryTypeCode: 'lead_interval',
+        isDeleted: false,
+        isActive: true,
+        sortOrder: 6,
+      },
+      {
+        name: '5 hours',
+        code: '5_hours',
+        description: '',
+        globalCategoryTypeCode: 'lead_interval',
+        isDeleted: false,
+        isActive: true,
+        sortOrder: 7,
+      },
+
+  ];
+  module.exports = {
+    leadInterval,
+  };
+  

@@ -1,0 +1,110 @@
+.table_paper {
+    display: flex;
+    flex-direction: column;
+    min-height: 180px;
+    border-radius: 7.79px;
+
+
+    .table_container {
+        // max-height: 500px;
+        position: relative;
+        flex: 1;
+
+        .stickyHeader {
+            position: 'sticky';
+            left: 0;
+            background: '#ffffff';
+        }
+        .MuiTableRow-root {
+            .MuiTableCell-body {
+                border-bottom: 1px solid var(--border, #E6EDFF);
+            }
+        }
+    }
+
+    .header {
+        text-align: 'center';
+        border: 'none';
+        border-radius: '6px';
+        color: '#303030';
+        height: 54px;
+        // font-weight: 10px;
+    }
+
+    .header_cell {
+        display: flex;
+        flex-direction: row;
+        font-size: 14px;
+        line-height: 21px;
+        opacity: 1;
+        order: 0;
+        flex-grow: 0;
+        font-weight: bold !important;
+    }
+
+    .pinnedColumn {
+        position: 'sticky';
+        right: 0;
+        border: 'none';
+        background-color: '#FFF9EC';
+    }
+
+    .css-1mmlog3-MuiTableCell-root {
+        text-align: center;
+    }
+
+    .table_loader {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 74%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-block: none;
+    }
+
+    .pinnedRows {
+        position: sticky;
+        right: 0;
+        background-color: '#F3F6F6';
+        font-size: '14px';
+        line-height: '21px';
+        text-align: center;
+    }
+
+    .sortLabel {
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .MuiTableSortLabel-root {
+        margin: -6px;
+    }
+
+    .MuiTableSortLabel-icon {
+        font-size: large;
+    }
+
+    .MuiPaginationItem-previousNext {
+        border-radius: 50px;
+        border: none;
+    }
+
+    .table_cell {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .buttonStyle {
+        box-shadow: '0px 0px 4px rgba(0, 0, 0, 0.15)';
+        border-radius: '6px';
+
+    }
+
+    .MuiTableCell-root.MuiTableCell-body, .MuiTableCell-root.MuiTableCell-head {
+        padding: 12px;
+    }
+}

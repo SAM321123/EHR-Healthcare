@@ -1,0 +1,26 @@
+.page_header_container {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .header_right_content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    .filters-container{
+        margin-bottom: 0;
+    }
+    
+      .page_header_button {
+        width: fit-content;
+        min-width: 120px;
+        border-radius: 48px;
+        font-family: Poppins-SemiBold, sans-serif;
+        font-size: 14px;
+        line-height: 24px;
+      }
+  }
+}

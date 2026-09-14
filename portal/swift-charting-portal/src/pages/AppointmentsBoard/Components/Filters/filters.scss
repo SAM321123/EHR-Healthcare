@@ -1,0 +1,83 @@
+
+.dashboard-filter-header-section {
+  padding: 0px 0px 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .heading {
+    margin-bottom: 0;
+    color: #303030;
+    font-weight: 700;
+    font-size: large;
+  }
+  .filters-wrap {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+  }
+  .filters {
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+    .lt-arrow {
+      background: url("../../../../../public/assets/images/arrow-right.png");
+      width: 10px;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin-right: 8px;
+      border: none;
+      height: 13px;
+      padding: 0;
+      cursor: pointer;
+    }
+    .rt-arrow {
+      background: url("../../../../../public/assets/images/arrow-right.png");
+      width: 10px;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin-left: 8px;
+      transform: rotate(180deg);
+      border: none;
+      height: 13px;
+      padding: 0;
+      cursor: pointer;
+    }
+    .css-e9crry-MuiInputBase-input-MuiOutlinedInput-input{
+      height: 0.007rem;
+    }
+      .css-1ablmay-MuiInputBase-root-MuiOutlinedInput-root{
+        width: 10rem;
+        font-size: 12px;
+      }
+    .ant-row {
+      &.ant-form-item {
+        margin-bottom: 0;
+      }
+    }
+    .mng-select-gaps {
+      margin-left: 20px;
+      .custom-select {
+        .ant-col {
+          &.ant-col-8 {
+            max-width: 60px;
+          }
+        }
+      }
+      &.mng-select-text {
+        .custom-select {
+          .ant-col {
+            &.ant-col-8 {
+              max-width: 50px;
+            }
+          }
+        }
+      }
+    }
+    .task-btn {
+      margin-right: 10px !important
+    }
+  }
+}
+.date-wrapper{
+  display: flex;
+}

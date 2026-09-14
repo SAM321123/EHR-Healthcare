@@ -1,0 +1,70 @@
+.appointment-card{
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+    border-radius: 4px;
+    padding: 0.8rem 0.8rem 0.8rem 0.6rem;
+    margin-right: 16px;
+    margin-bottom: 0.8rem;
+    max-height: 2.7rem;
+    min-width: 14.3rem;
+    display: flex;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    flex: 1;
+
+    .widget-icon {
+        width: 30px;
+        min-width: 30px;
+        height: 30px;
+        margin-right: 16px;
+        &.week-icon {
+          background: url("../../../../../public/assets/images/week-icon.png");
+          background-repeat: no-repeat;
+          background-size: contain;
+        }
+        &.appointment-icon {
+          background: url("../../../../../public/assets/images/appointment-icon.png");
+          background-repeat: no-repeat;
+          background-size: contain;
+        }
+        &.due-icon {
+          background: url("../../../../../public/assets/images/due-today-icon.png");
+          background-repeat: no-repeat;
+          background-size: contain;
+        }
+        &.complete-icon {
+          background: url("../../../../../public/assets/images/complete-icon.png");
+          background-repeat: no-repeat;
+          background-size: contain;
+        }
+        &.cancel-icon {
+          background: url("../../../../../public/assets/images/cancel-icon.png");
+          background-repeat: no-repeat;
+          background-size: contain;
+        }
+      }
+
+    .info-area{
+        flex-direction: column;
+        display: flex;
+        box-sizing: border-box;
+
+        .card-heading{
+            color: #9D9D9D;
+            font-size: 0.8rem;
+            font-weight: 400;
+            line-height: 1;
+            margin-bottom: 3px;
+            font-family: "Roboto",sans-serif!important;
+        }
+        .data{
+            font-size: 0.9rem;
+            color: #303030;
+            line-height: 1;
+            font-weight: 700;
+        }
+    }
+}

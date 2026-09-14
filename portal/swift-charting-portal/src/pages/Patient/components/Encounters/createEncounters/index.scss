@@ -1,0 +1,13 @@
+.encouter-info-wrapper {
+    position: relative;
+    .encouter-info-form-disable {
+      top: 0px;
+      left: 0px;
+      bottom: 0px;
+      right: 0px;
+      pointer-events: none;
+    }
+    .MuiAccordionSummary-root{
+        pointer-events: auto;
+    }
+  }

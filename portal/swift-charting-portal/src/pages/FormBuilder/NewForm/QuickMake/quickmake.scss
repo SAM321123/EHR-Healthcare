@@ -1,0 +1,297 @@
+.quick-make-container {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+
+  .quick-make-table-col {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .quick-make-props-col {
+    width: 300px;
+    flex-shrink: 0;
+    position: sticky;
+    top: 16px;
+  }
+
+  // ── Table Panel ──────────────────────────────────────────────
+  .quick-make-table-panel {
+    border: 1px solid #d6e0ec;
+    border-radius: 16px;
+    background: #ffffff;
+    box-shadow: 0 4px 18px rgba(15, 23, 42, 0.05);
+    overflow: hidden;
+  }
+
+  .quick-make-table-header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 14px 16px;
+    border-bottom: 1px solid #edf2f7;
+  }
+
+  .quick-make-table-wrapper {
+    max-height: calc(100vh - 300px);
+    overflow-y: auto;
+  }
+
+  .quick-make-table-footer {
+    padding: 10px 16px;
+    border-top: 1px solid #edf2f7;
+    display: flex;
+    align-items: center;
+  }
+
+  .qm-add-row-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    color: #337ab7;
+    padding: 4px 0;
+    appearance: none;
+    font-family: inherit;
+
+    &:hover {
+      color: #029cde;
+    }
+  }
+
+  // Table head
+  .qm-th {
+    font-size: 12px !important;
+    font-weight: 700 !important;
+    color: #667085 !important;
+    background-color: #f8f9fc !important;
+    border-bottom: 1px solid #edf2f7 !important;
+    padding: 10px 12px !important;
+    white-space: nowrap;
+  }
+
+  .qm-th--num {
+    width: 40px;
+    text-align: center !important;
+  }
+
+  .qm-th--center {
+    text-align: center !important;
+  }
+
+  // Table rows
+  .qm-row {
+    cursor: pointer;
+    transition: background-color 0.15s ease-in-out;
+
+    &:hover {
+      background-color: #f4f8fc;
+    }
+
+    &--selected {
+      background-color: #eaf0f7 !important;
+
+      .qm-field-name {
+        color: #337ab7;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .qm-td {
+    font-size: 13px !important;
+    color: #333333 !important;
+    border-bottom: 1px solid #f4f6f8 !important;
+    padding: 10px 12px !important;
+    vertical-align: middle !important;
+  }
+
+  .qm-td--num {
+    text-align: center !important;
+    color: #667085 !important;
+    font-weight: 500 !important;
+  }
+
+  .qm-td--center {
+    text-align: center !important;
+  }
+
+  .qm-field-name {
+    font-size: 13px;
+    font-weight: 500;
+    color: #333333;
+  }
+
+  // Type badge
+  .qm-type-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 3px 10px;
+    border-radius: 6px;
+    background-color: #eaf0f7;
+    font-size: 12px;
+    font-weight: 500;
+    color: #337ab7;
+  }
+
+  .qm-type-badge__icon {
+    font-size: 13px;
+    line-height: 1;
+  }
+
+  .qm-type-badge__label {
+    font-size: 12px;
+  }
+
+  // Options column
+  .qm-opts {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .qm-opts--empty {
+    color: #919eab;
+    font-size: 13px;
+  }
+
+  .qm-opts__main {
+    font-size: 12px;
+    color: #475467;
+    line-height: 1.4;
+  }
+
+  .qm-opts__sub {
+    font-size: 11px;
+    color: #919eab;
+    line-height: 1.3;
+  }
+
+  // ── Properties Panel ─────────────────────────────────────────
+  .quick-make-props-panel {
+    border: 1px solid #d6e0ec;
+    border-radius: 16px;
+    background: #ffffff;
+    box-shadow: 0 4px 18px rgba(15, 23, 42, 0.05);
+    overflow: hidden;
+  }
+
+  .quick-make-props-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 16px;
+    border-bottom: 1px solid #edf2f7;
+  }
+
+  .quick-make-props-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: #101828;
+  }
+
+  .quick-make-props-empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 16px;
+    font-size: 13px;
+    color: #919eab;
+    text-align: center;
+  }
+
+  .quick-make-props-body {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  // Prop groups
+  .qm-prop-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .qm-prop-group--inline {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .qm-prop-label {
+    font-size: 12px;
+    font-weight: 600;
+    color: #475467;
+    line-height: 1.4;
+  }
+
+  // Options list
+  .qm-options-list {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 6px;
+  }
+
+  .qm-option-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 10px;
+    border: 1px solid #edf2f7;
+    border-radius: 8px;
+    background: #f8f9fc;
+    font-size: 13px;
+    color: #333333;
+  }
+
+  .qm-option-item__label {
+    flex: 1;
+    font-size: 13px;
+    color: #333333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .qm-option-add-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .qm-add-option-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    color: #337ab7;
+    white-space: nowrap;
+    padding: 0;
+    appearance: none;
+    font-family: inherit;
+
+    &:hover {
+      color: #029cde;
+    }
+  }
+
+  @media (max-width: 1100px) {
+    flex-direction: column;
+
+    .quick-make-props-col {
+      width: 100%;
+      position: static;
+    }
+  }
+}

@@ -1,0 +1,68 @@
+const subscriptionCancelReason = [
+    {
+        name: 'No longer using the software',
+        code: 'no_longer_using_the_software',
+        description: 'I’m not actively using Swift Charting',
+        globalCategoryTypeCode: 'subsription_cancel_reason',
+        isDeleted: false,
+        isActive: true,
+        sortOrder: 1,
+    },
+    {
+        name: 'Cost concerns',
+        code: 'cost_concerns',
+        description: 'The subscription price does not fit my budget',
+        globalCategoryTypeCode: 'subsription_cancel_reason',
+        isDeleted: false,
+        isActive: true,
+        sortOrder: 2,
+    },
+    {
+        name: 'Technical issues',
+        code: 'technical_issues',
+        description: 'I experienced difficulties using the software or it didn’t meet my needs.',
+        globalCategoryTypeCode: 'subsription_cancel_reason',
+        isDeleted: false,
+        isActive: true,
+        sortOrder: 3,
+    },
+    {
+        name: 'Switching to another product',
+        code: 'switching_to_another_product',
+        description: 'I found another tool or solution that better fits my workflow.',
+        globalCategoryTypeCode: 'subsription_cancel_reason',
+        isDeleted: false,
+        isActive: true,
+        sortOrder: 4,
+    },
+    {
+        name: 'Cost concerns',
+        code: 'cost_concerns',
+        description: 'The subscription price does not fit my budget',
+        globalCategoryTypeCode: 'subsription_cancel_reason',
+        isDeleted: false,
+        isActive: true,
+        sortOrder: 5,
+    },
+    {
+        name: 'Temporary pause',
+        code: 'temporary_pause',
+        description: 'I want to cancel for now but may re-subscribe in the future.',
+        globalCategoryTypeCode: 'subsription_cancel_reason',
+        isDeleted: false,
+        isActive: true,
+        sortOrder: 6,
+    },
+    {
+        name: 'Other',
+        code: 'subscription_cancel_reason_other',
+        description: '',
+        globalCategoryTypeCode: 'subsription_cancel_reason',
+        isDeleted: false,
+        isActive: true,
+  },
+  ];
+  module.exports = {
+    subscriptionCancelReason,
+  };
+  

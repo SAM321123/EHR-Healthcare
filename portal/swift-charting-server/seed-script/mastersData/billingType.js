@@ -1,0 +1,78 @@
+const billingType = [
+    {
+      name: 'Self',
+      code: 'self_billing_Type',
+      description: '',
+      globalCategoryTypeCode: 'billing_type',
+      isDeleted: false,
+      isActive: true,
+      sortOrder: 1,
+    },
+    {
+      name: 'Insurance',
+      code: 'insurance_billing_Type',
+      description: 'Billing through insurance providers',
+      globalCategoryTypeCode: 'billing_type',
+      isDeleted: false,
+      isActive: true,
+      sortOrder: 2,
+    },
+    {
+      name: 'Medicare',
+      code: 'medicare_billing_Type',
+      description: 'Billing through Medicare',
+      globalCategoryTypeCode: 'billing_type',
+      isDeleted: false,
+      isActive: true,
+      sortOrder: 3,
+    },
+    {
+      name: 'Medicaid',
+      code: 'medicaid_billing_Type',
+      description: 'Billing through Medicaid',
+      globalCategoryTypeCode: 'billing_type',
+      isDeleted: false,
+      isActive: true,
+      sortOrder: 4,
+    },
+    {
+      name: 'Workers Compensation',
+      code: 'workers_comp_billing_Type',
+      description: 'Billing through workers compensation programs',
+      globalCategoryTypeCode: 'billing_type',
+      isDeleted: false,
+      isActive: true,
+      sortOrder: 5,
+    },
+    {
+      name: 'Veterans Affairs',
+      code: 'va_billing_Type',
+      description: 'Billing through Veterans Affairs programs',
+      globalCategoryTypeCode: 'billing_type',
+      isDeleted: false,
+      isActive: true,
+      sortOrder: 6,
+    },
+    {
+      name: 'Charity',
+      code: 'charity_billing_Type',
+      description: 'Billing covered by charitable organizations',
+      globalCategoryTypeCode: 'billing_type',
+      isDeleted: false,
+      isActive: true,
+      sortOrder: 7,
+    },
+    {
+      name: 'Out-of-Pocket',
+      code: 'out_of_pocket_billing_Type',
+      description: 'Billing paid directly by the patient without insurance',
+      globalCategoryTypeCode: 'billing_type',
+      isDeleted: false,
+      isActive: true,
+      sortOrder:8,
+    },]
+
+    module.exports={
+        billingType,
+    }
+  

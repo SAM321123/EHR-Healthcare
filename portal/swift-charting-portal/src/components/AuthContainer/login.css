@@ -1,0 +1,1615 @@
+.login-child {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #337ab7;
+    width: 683px;
+    height: 728px;
+  }
+  .vector-icon {
+    height: 100%;
+    width: 94.2%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 5.8%;
+    opacity: 0.25;
+  }
+  .group-child,
+  .vector-icon,
+  .vector-icon1 {
+    position: absolute;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .vector-icon1 {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    object-fit: contain;
+  }
+  .group-child {
+    height: 25.53%;
+    width: 32.05%;
+    top: 37.43%;
+    right: 34.17%;
+    bottom: 37.04%;
+    left: 33.78%;
+  }
+  .vector-group {
+    position: absolute;
+    height: 14.14%;
+    width: 11.84%;
+    top: 1.38%;
+    right: 24.59%;
+    bottom: 84.48%;
+    left: 63.57%;
+  }
+  .group-icon,
+  .group-inner,
+  .group-item,
+  .vector-icon2,
+  .vector-icon3 {
+    position: absolute;
+    height: 29.69%;
+    width: 13%;
+    top: 64.83%;
+    right: 87%;
+    bottom: 5.48%;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .group-icon,
+  .group-inner,
+  .vector-icon2,
+  .vector-icon3 {
+    height: 2.23%;
+    width: 1.86%;
+    top: 7.49%;
+    right: 49.64%;
+    bottom: 90.28%;
+    left: 48.5%;
+  }
+  .group-icon,
+  .vector-icon2,
+  .vector-icon3 {
+    top: 25.48%;
+    right: 33.41%;
+    bottom: 72.29%;
+    left: 64.73%;
+  }
+  .vector-icon2,
+  .vector-icon3 {
+    height: 1.14%;
+    width: 4.39%;
+    top: 52.4%;
+    right: 72.55%;
+    bottom: 46.46%;
+    left: 23.07%;
+  }
+  .vector-icon3 {
+    height: 5.24%;
+    width: 0.93%;
+    top: 50.34%;
+    right: 74.27%;
+    bottom: 44.42%;
+    left: 24.8%;
+  }
+  .group-child1,
+  .group-child2,
+  .texts-icon,
+  .vector-icon4,
+  .vector-icon5 {
+    position: absolute;
+    height: 15.52%;
+    width: 13%;
+    top: 23.28%;
+    right: 12.07%;
+    bottom: 61.19%;
+    left: 74.93%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .group-child2,
+  .texts-icon,
+  .vector-icon4,
+  .vector-icon5 {
+    height: 22.17%;
+    width: 18.55%;
+    top: 1.38%;
+    right: 57.32%;
+    bottom: 76.45%;
+    left: 24.14%;
+  }
+  .texts-icon,
+  .vector-icon4,
+  .vector-icon5 {
+    height: 71.21%;
+    width: 35.05%;
+    top: 21.33%;
+    right: 58.23%;
+    bottom: 7.46%;
+    left: 6.73%;
+  }
+  .vector-icon4,
+  .vector-icon5 {
+    height: 11.49%;
+    width: 11.46%;
+    top: 26.5%;
+    right: 21.59%;
+    bottom: 62.01%;
+    left: 66.95%;
+  }
+  .vector-icon5 {
+    top: 26.53%;
+    right: 33.09%;
+    bottom: 61.98%;
+    left: 55.45%;
+  }
+  .vector-icon10,
+  .vector-icon6,
+  .vector-icon7,
+  .vector-icon8,
+  .vector-icon9 {
+    position: absolute;
+    height: 4.09%;
+    width: 4.34%;
+    top: 31.45%;
+    right: 30.79%;
+    bottom: 64.46%;
+    left: 64.86%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .vector-icon10,
+  .vector-icon7,
+  .vector-icon8,
+  .vector-icon9 {
+    height: 1.88%;
+    width: 3.88%;
+    top: 32.38%;
+    right: 31.09%;
+    bottom: 65.74%;
+    left: 65.03%;
+  }
+  .vector-icon10,
+  .vector-icon8,
+  .vector-icon9 {
+    height: 3.14%;
+    width: 3.19%;
+    top: 27.82%;
+    right: 37.27%;
+    bottom: 69.04%;
+    left: 59.54%;
+  }
+  .vector-icon10,
+  .vector-icon9 {
+    height: 1.12%;
+    width: 0.85%;
+    top: 28.78%;
+    right: 38.5%;
+    bottom: 70.1%;
+    left: 60.65%;
+  }
+  .vector-icon10 {
+    height: 3.14%;
+    width: 3.19%;
+    top: 27.66%;
+    right: 25.55%;
+    bottom: 69.21%;
+    left: 71.25%;
+  }
+  .vector-icon11,
+  .vector-icon12,
+  .vector-icon13,
+  .vector-icon14,
+  .vector-icon15 {
+    position: absolute;
+    height: 1.12%;
+    width: 0.85%;
+    top: 28.65%;
+    right: 26.7%;
+    bottom: 70.23%;
+    left: 72.44%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .vector-icon12,
+  .vector-icon13,
+  .vector-icon14,
+  .vector-icon15 {
+    height: 9.34%;
+    width: 12.69%;
+    top: 21.75%;
+    right: 26.83%;
+    bottom: 68.91%;
+    left: 60.48%;
+  }
+  .vector-icon13,
+  .vector-icon14,
+  .vector-icon15 {
+    height: 10.46%;
+    width: 10.73%;
+    top: 22.81%;
+    right: 27.85%;
+    bottom: 66.73%;
+    left: 61.41%;
+  }
+  .vector-icon14,
+  .vector-icon15 {
+    height: 4.22%;
+    width: 3.49%;
+    top: 22.54%;
+    right: 35.31%;
+    bottom: 73.23%;
+    left: 61.2%;
+  }
+  .vector-icon15 {
+    height: 5.71%;
+    width: 8.56%;
+    top: 22.11%;
+    right: 27.3%;
+    bottom: 72.18%;
+    left: 64.14%;
+  }
+  .vector-icon16,
+  .vector-icon17,
+  .vector-icon18,
+  .vector-icon19,
+  .vector-icon20 {
+    position: absolute;
+    height: 3.23%;
+    width: 4.17%;
+    top: 27.29%;
+    right: 33.73%;
+    bottom: 69.47%;
+    left: 62.1%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .vector-icon17,
+  .vector-icon18,
+  .vector-icon19,
+  .vector-icon20 {
+    right: 28.53%;
+    left: 67.29%;
+  }
+  .vector-icon18,
+  .vector-icon19,
+  .vector-icon20 {
+    height: 0.46%;
+    width: 1.02%;
+    top: 28.91%;
+    right: 32.71%;
+    bottom: 70.63%;
+    left: 66.27%;
+  }
+  .vector-icon19,
+  .vector-icon20 {
+    height: 0.5%;
+    width: 0.64%;
+    top: 28.35%;
+    right: 37.9%;
+    bottom: 71.16%;
+    left: 61.46%;
+  }
+  .vector-icon20 {
+    height: 0.63%;
+    width: 0.81%;
+    top: 28.18%;
+    right: 27.68%;
+    bottom: 71.19%;
+    left: 71.51%;
+  }
+  .group-icon1,
+  .group-icon2,
+  .vector-icon21,
+  .vector-icon22,
+  .vector-icon23 {
+    position: absolute;
+    height: 1.09%;
+    width: 0.85%;
+    top: 28.28%;
+    right: 34.97%;
+    bottom: 70.63%;
+    left: 64.18%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .group-icon1,
+  .group-icon2,
+  .vector-icon22,
+  .vector-icon23 {
+    top: 28.22%;
+    right: 30.75%;
+    bottom: 70.69%;
+    left: 68.4%;
+  }
+  .group-icon1,
+  .group-icon2,
+  .vector-icon23 {
+    height: 1.25%;
+    width: 0.68%;
+    top: 29.31%;
+    right: 32.84%;
+    bottom: 69.44%;
+    left: 66.48%;
+  }
+  .group-icon1,
+  .group-icon2 {
+    height: 0.66%;
+    width: 1.58%;
+    top: 29.47%;
+    right: 34.88%;
+    bottom: 69.87%;
+    left: 63.54%;
+    opacity: 0.43;
+  }
+  .group-icon2 {
+    top: 29.44%;
+    right: 29.98%;
+    bottom: 69.9%;
+    left: 68.44%;
+  }
+  .vector-icon24,
+  .vector-icon25,
+  .vector-icon26,
+  .vector-icon27 {
+    position: absolute;
+    height: 0.46%;
+    width: 2.34%;
+    top: 26.5%;
+    right: 29.77%;
+    bottom: 73.04%;
+    left: 67.89%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .vector-icon25,
+  .vector-icon26,
+  .vector-icon27 {
+    width: 2.43%;
+    right: 34.45%;
+    left: 63.12%;
+  }
+  .vector-icon26,
+  .vector-icon27 {
+    height: 0.76%;
+    width: 2.21%;
+    top: 31.12%;
+    right: 32.11%;
+    bottom: 68.12%;
+    left: 65.67%;
+  }
+  .vector-icon27 {
+    height: 0.36%;
+    width: 2.09%;
+    right: 32.2%;
+    bottom: 68.51%;
+    left: 65.72%;
+  }
+  .vector-icon28,
+  .vector-icon30,
+  .vector-icon31,
+  .vector-icon32,
+  .vector-icon33 {
+    position: absolute;
+    height: 15.25%;
+    width: 10.01%;
+    top: 36.47%;
+    right: 36.03%;
+    bottom: 48.28%;
+    left: 53.96%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .vector-icon30,
+  .vector-icon31,
+  .vector-icon32,
+  .vector-icon33 {
+    height: 9.87%;
+    width: 12.39%;
+    top: 41.95%;
+    right: 41.44%;
+    bottom: 48.18%;
+    left: 46.17%;
+  }
+  .vector-icon31,
+  .vector-icon32,
+  .vector-icon33 {
+    height: 9.41%;
+    width: 12.01%;
+    top: 42.48%;
+    bottom: 48.12%;
+    left: 46.55%;
+  }
+  .vector-icon32,
+  .vector-icon33 {
+    height: 25.68%;
+    width: 8.35%;
+    top: 70.1%;
+    right: 31.43%;
+    bottom: 4.22%;
+    left: 60.22%;
+  }
+  .vector-icon33 {
+    right: 21.85%;
+    left: 69.8%;
+  }
+  .vector-icon34,
+  .vector-icon35,
+  .vector-icon36,
+  .vector-icon37,
+  .vector-icon38 {
+    position: absolute;
+    height: 22.51%;
+    width: 20.14%;
+    top: 49.7%;
+    right: 21.38%;
+    bottom: 27.79%;
+    left: 58.48%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .vector-icon35,
+  .vector-icon36,
+  .vector-icon37,
+  .vector-icon38 {
+    height: 14.49%;
+    width: 9.67%;
+    top: 35.25%;
+    right: 29.05%;
+    bottom: 50.26%;
+    left: 61.29%;
+  }
+  .vector-icon36,
+  .vector-icon37,
+  .vector-icon38 {
+    height: 2.05%;
+    width: 4.81%;
+    right: 30.66%;
+    bottom: 62.71%;
+    left: 64.52%;
+  }
+  .vector-icon37,
+  .vector-icon38 {
+    height: 31.02%;
+    width: 10.86%;
+    right: 21.21%;
+    bottom: 33.73%;
+    left: 67.93%;
+  }
+  .vector-icon38 {
+    height: 11.91%;
+    width: 3.32%;
+    right: 28.79%;
+    bottom: 52.84%;
+    left: 67.89%;
+  }
+  .vector-icon39,
+  .vector-icon40,
+  .vector-icon41,
+  .vector-icon42,
+  .vector-icon43,
+  .vector-icon44 {
+    position: absolute;
+    height: 30.99%;
+    width: 6.22%;
+    top: 35.31%;
+    right: 35.14%;
+    bottom: 33.7%;
+    left: 58.65%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .vector-icon40,
+  .vector-icon41,
+  .vector-icon42,
+  .vector-icon43,
+  .vector-icon44 {
+    height: 11.85%;
+    width: 4.13%;
+    bottom: 52.84%;
+    left: 60.73%;
+  }
+  .vector-icon41,
+  .vector-icon42,
+  .vector-icon43,
+  .vector-icon44 {
+    height: 3.63%;
+    width: 6.64%;
+    top: 20.43%;
+    right: 27.47%;
+    bottom: 75.94%;
+    left: 65.89%;
+  }
+  .vector-icon42,
+  .vector-icon43,
+  .vector-icon44 {
+    height: 1.35%;
+    width: 1.75%;
+    top: 21.35%;
+    right: 29.94%;
+    bottom: 77.29%;
+    left: 68.31%;
+  }
+  .vector-icon43,
+  .vector-icon44 {
+    height: 2.9%;
+    width: 2.26%;
+    top: 44.13%;
+    right: 33.6%;
+    bottom: 52.97%;
+    left: 64.14%;
+  }
+  .vector-icon44 {
+    height: 1.98%;
+    width: 5.24%;
+    top: 45.08%;
+    right: 35.18%;
+    bottom: 52.94%;
+    left: 59.58%;
+  }
+  .vector-icon45,
+  .vector-icon46,
+  .vector-icon47,
+  .vector-icon48,
+  .vector-icon49 {
+    position: absolute;
+    height: 1.45%;
+    width: 5.41%;
+    top: 46.14%;
+    right: 35.95%;
+    bottom: 52.41%;
+    left: 58.65%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .vector-icon46,
+  .vector-icon47,
+  .vector-icon48,
+  .vector-icon49 {
+    height: 0.99%;
+    width: 5.45%;
+    top: 47.1%;
+    right: 35.35%;
+    bottom: 51.91%;
+    left: 59.2%;
+  }
+  .vector-icon47,
+  .vector-icon48,
+  .vector-icon49 {
+    height: 0.86%;
+    width: 4.64%;
+    top: 47.95%;
+    right: 34.37%;
+    bottom: 51.19%;
+    left: 60.99%;
+  }
+  .vector-icon48,
+  .vector-icon49 {
+    height: 3.04%;
+    width: 5.15%;
+    top: 45.84%;
+    right: 32.28%;
+    bottom: 51.12%;
+    left: 62.56%;
+  }
+  .vector-icon49 {
+    height: 14.98%;
+    width: 10.69%;
+    top: 36.44%;
+    right: 18.02%;
+    bottom: 48.58%;
+    left: 71.29%;
+  }
+  .vector-icon51,
+  .vector-icon52,
+  .vector-icon53,
+  .vector-icon54,
+  .vector-icon55 {
+    position: absolute;
+    height: 4.52%;
+    width: 15.93%;
+    top: 46.83%;
+    right: 18.44%;
+    bottom: 48.65%;
+    left: 65.63%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .vector-icon52,
+  .vector-icon53,
+  .vector-icon54,
+  .vector-icon55 {
+    height: 4.72%;
+    width: 14.4%;
+    top: 46.73%;
+    bottom: 48.55%;
+    left: 67.16%;
+  }
+  .vector-icon53,
+  .vector-icon54,
+  .vector-icon55 {
+    height: 4.59%;
+    width: 12.44%;
+    top: 93.2%;
+    right: 30.71%;
+    bottom: 2.21%;
+    left: 56.86%;
+  }
+  .vector-icon54,
+  .vector-icon55 {
+    height: 0.53%;
+    top: 97.26%;
+  }
+  .vector-icon55 {
+    height: 1.06%;
+    width: 1.49%;
+    top: 93.89%;
+    right: 35.43%;
+    bottom: 5.05%;
+    left: 63.07%;
+  }
+  .vector-icon56,
+  .vector-icon57,
+  .vector-icon58,
+  .vector-icon59,
+  .vector-icon60 {
+    position: absolute;
+    height: 1.12%;
+    width: 1.41%;
+    top: 94.42%;
+    right: 36.46%;
+    bottom: 4.46%;
+    left: 62.14%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .vector-icon57,
+  .vector-icon58,
+  .vector-icon59,
+  .vector-icon60 {
+    top: 94.88%;
+    right: 37.48%;
+    bottom: 3.99%;
+    left: 61.12%;
+  }
+  .vector-icon58,
+  .vector-icon59,
+  .vector-icon60 {
+    height: 5.08%;
+    width: 7.54%;
+    top: 92.64%;
+    right: 20.44%;
+    bottom: 2.28%;
+    left: 72.02%;
+  }
+  .vector-icon59,
+  .vector-icon60 {
+    height: 0.56%;
+    top: 97.19%;
+    bottom: 2.24%;
+  }
+  .vector-icon60 {
+    height: 0.79%;
+    width: 2.26%;
+    top: 93.53%;
+    right: 22.49%;
+    bottom: 5.68%;
+    left: 75.26%;
+  }
+  .vector-icon61,
+  .vector-icon62,
+  .vector-icon63,
+  .vector-icon64,
+  .vector-icon65,
+  .vector-icon66 {
+    position: absolute;
+    height: 0.76%;
+    width: 2.26%;
+    top: 94.36%;
+    right: 22.91%;
+    bottom: 4.88%;
+    left: 74.83%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .vector-icon62,
+  .vector-icon63,
+  .vector-icon64,
+  .vector-icon65,
+  .vector-icon66 {
+    height: 0.73%;
+    top: 95.18%;
+    right: 23.38%;
+    bottom: 4.09%;
+    left: 74.36%;
+  }
+  .vector-icon63,
+  .vector-icon64,
+  .vector-icon65,
+  .vector-icon66 {
+    height: 5.25%;
+    width: 6.39%;
+    top: 38.42%;
+    right: 51.06%;
+    bottom: 56.34%;
+    left: 42.55%;
+  }
+  .vector-icon64,
+  .vector-icon65,
+  .vector-icon66 {
+    height: 1.62%;
+    width: 2.68%;
+    top: 38.75%;
+    right: 53.92%;
+    bottom: 59.64%;
+    left: 43.4%;
+  }
+  .vector-icon65,
+  .vector-icon66 {
+    top: 39.54%;
+    right: 54.26%;
+    bottom: 58.84%;
+    left: 43.06%;
+  }
+  .vector-icon66 {
+    top: 40.33%;
+    right: 54.64%;
+    bottom: 58.05%;
+    left: 42.67%;
+  }
+  .vector-icon67,
+  .vector-icon68,
+  .vector-icon69,
+  .vector-icon70,
+  .vector-icon71 {
+    position: absolute;
+    height: 1.42%;
+    width: 2.34%;
+    top: 41.16%;
+    right: 55.24%;
+    bottom: 57.43%;
+    left: 42.42%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .vector-icon68,
+  .vector-icon69,
+  .vector-icon70,
+  .vector-icon71 {
+    height: 38.98%;
+    width: 83.05%;
+    top: 61.02%;
+    right: 11.84%;
+    bottom: 0;
+    left: 5.11%;
+  }
+  .vector-icon69,
+  .vector-icon70,
+  .vector-icon71 {
+    height: 6.77%;
+    width: 92.46%;
+    top: 54.26%;
+    right: 7.54%;
+    bottom: 38.98%;
+    left: 0;
+  }
+  .vector-icon70,
+  .vector-icon71 {
+    width: 7.54%;
+    right: 0.04%;
+    left: 92.42%;
+  }
+  .vector-icon71 {
+    height: 38.98%;
+    width: 8.05%;
+    top: 61.02%;
+    right: 3.79%;
+    bottom: 0;
+    left: 88.16%;
+  }
+  .vector-icon72,
+  .vector-icon73,
+  .vector-icon74,
+  .vector-icon75,
+  .vector-icon76,
+  .vector-icon77,
+  .vector-icon78 {
+    position: absolute;
+    height: 10.56%;
+    width: 83.05%;
+    top: 70.96%;
+    right: 11.84%;
+    bottom: 18.48%;
+    left: 5.11%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .vector-icon73,
+  .vector-icon74,
+  .vector-icon75,
+  .vector-icon76,
+  .vector-icon77,
+  .vector-icon78 {
+    height: 2.01%;
+    top: 66.86%;
+    bottom: 31.12%;
+  }
+  .vector-icon74,
+  .vector-icon75,
+  .vector-icon76,
+  .vector-icon77,
+  .vector-icon78 {
+    top: 83.2%;
+    bottom: 14.79%;
+  }
+  .vector-icon75,
+  .vector-icon76,
+  .vector-icon77,
+  .vector-icon78 {
+    height: 5.87%;
+    top: 94.09%;
+    bottom: 0.03%;
+  }
+  .vector-icon76,
+  .vector-icon77,
+  .vector-icon78 {
+    height: 21.91%;
+    width: 28.28%;
+    top: 65.64%;
+    right: 41.95%;
+    bottom: 12.44%;
+    left: 29.77%;
+  }
+  .vector-icon77,
+  .vector-icon78 {
+    height: 19.27%;
+    width: 24.87%;
+    top: 66.96%;
+    right: 43.65%;
+    bottom: 13.76%;
+    left: 31.47%;
+  }
+  .vector-icon78 {
+    height: 11.55%;
+    width: 14.91%;
+    top: 70.83%;
+    right: 48.64%;
+    bottom: 17.62%;
+    left: 36.46%;
+  }
+  .clip-path-group,
+  .vector-icon79,
+  .vector-icon80,
+  .vector-icon82,
+  .vector-icon83 {
+    position: absolute;
+    height: 5.87%;
+    width: 8.05%;
+    top: 94.09%;
+    right: 3.79%;
+    bottom: 0.03%;
+    left: 88.16%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .clip-path-group,
+  .vector-icon80,
+  .vector-icon82,
+  .vector-icon83 {
+    height: 14.42%;
+    width: 29.98%;
+    top: 37.03%;
+    right: 45.32%;
+    bottom: 48.55%;
+    left: 24.7%;
+  }
+  .clip-path-group,
+  .vector-icon82,
+  .vector-icon83 {
+    width: 30.03%;
+    right: 46.25%;
+    left: 23.72%;
+  }
+  .vector-icon82,
+  .vector-icon83 {
+    height: 2.67%;
+    width: 7.07%;
+    top: 50.43%;
+    right: 57.37%;
+    bottom: 46.9%;
+    left: 35.56%;
+  }
+  .vector-icon83 {
+    height: 1.16%;
+    width: 17.5%;
+    top: 53.1%;
+    right: 51.87%;
+    bottom: 45.74%;
+    left: 30.62%;
+  }
+  .vector-icon84,
+  .vector-icon85,
+  .vector-icon86,
+  .vector-icon87,
+  .vector-icon88 {
+    position: absolute;
+    height: 3.8%;
+    width: 2.98%;
+    top: 46.6%;
+    right: 59.75%;
+    bottom: 49.6%;
+    left: 37.27%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .vector-icon85,
+  .vector-icon86,
+  .vector-icon87,
+  .vector-icon88 {
+    height: 2.64%;
+    width: 15.72%;
+    top: 48.98%;
+    right: 6.26%;
+    bottom: 48.38%;
+    left: 78.02%;
+  }
+  .vector-icon86,
+  .vector-icon87,
+  .vector-icon88 {
+    top: 51.58%;
+    right: 7.84%;
+    bottom: 45.78%;
+    left: 76.45%;
+  }
+  .vector-icon87,
+  .vector-icon88 {
+    height: 4.98%;
+    width: 5.41%;
+    top: 43.99%;
+    right: 11.41%;
+    bottom: 51.02%;
+    left: 83.18%;
+  }
+  .vector-icon88 {
+    height: 0.92%;
+    width: 2.64%;
+    top: 48.09%;
+    right: 13.84%;
+    bottom: 50.99%;
+    left: 83.52%;
+  }
+  .clip-path-group3,
+  .clip-path-group4,
+  .vector-icon89,
+  .vector-icon90 {
+    position: absolute;
+    height: 1.25%;
+    width: 1.83%;
+    top: 47.82%;
+    right: 15.08%;
+    bottom: 50.92%;
+    left: 83.09%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .clip-path-group4,
+  .vector-icon89,
+  .vector-icon90 {
+    height: 0.96%;
+    width: 2.6%;
+    top: 48.02%;
+    right: 11.97%;
+    bottom: 51.02%;
+    left: 85.43%;
+  }
+  .clip-path-group4,
+  .vector-icon90 {
+    height: 1.29%;
+    width: 1.87%;
+    top: 47.95%;
+    right: 13.12%;
+    bottom: 50.76%;
+    left: 85.01%;
+  }
+  .vector-icon90 {
+    height: 0.69%;
+    width: 2.64%;
+    top: 47.52%;
+    right: 12.99%;
+    bottom: 51.78%;
+    left: 84.37%;
+  }
+  .clip-path-group5,
+  .clip-path-group6,
+  .vector-icon91,
+  .vector-icon92 {
+    position: absolute;
+    height: 1.06%;
+    width: 1.62%;
+    top: 47.33%;
+    right: 12.69%;
+    bottom: 51.62%;
+    left: 85.69%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .clip-path-group6,
+  .vector-icon91,
+  .vector-icon92 {
+    height: 1.35%;
+    width: 2.43%;
+    top: 46.57%;
+    right: 14.35%;
+    bottom: 52.08%;
+    left: 83.22%;
+  }
+  .clip-path-group6,
+  .vector-icon92 {
+    height: 1.52%;
+    width: 2.09%;
+    top: 46.2%;
+    right: 13.84%;
+    bottom: 52.28%;
+    left: 84.07%;
+  }
+  .vector-icon92 {
+    height: 1.32%;
+    width: 2.43%;
+    top: 46.7%;
+    right: 11.46%;
+    bottom: 51.98%;
+    left: 86.12%;
+  }
+  .clip-path-group7,
+  .clip-path-group8,
+  .vector-icon93,
+  .vector-icon94,
+  .vector-icon95 {
+    position: absolute;
+    height: 1.52%;
+    width: 2.09%;
+    top: 46.9%;
+    right: 10.86%;
+    bottom: 51.58%;
+    left: 87.05%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .clip-path-group8,
+  .vector-icon93,
+  .vector-icon94,
+  .vector-icon95 {
+    height: 0.96%;
+    width: 2.6%;
+    top: 46.6%;
+    right: 12.73%;
+    bottom: 52.44%;
+    left: 84.67%;
+  }
+  .clip-path-group8,
+  .vector-icon94,
+  .vector-icon95 {
+    height: 1.29%;
+    width: 1.87%;
+    top: 46.57%;
+    right: 12.27%;
+    bottom: 52.15%;
+    left: 85.86%;
+  }
+  .vector-icon94,
+  .vector-icon95 {
+    height: 1.98%;
+    width: 4.3%;
+    top: 44.95%;
+    right: 11.97%;
+    bottom: 53.07%;
+    left: 83.73%;
+  }
+  .vector-icon95 {
+    height: 1.72%;
+    width: 3.96%;
+    top: 45.08%;
+    right: 12.1%;
+    bottom: 53.2%;
+    left: 83.94%;
+  }
+  .vector-icon100,
+  .vector-icon96,
+  .vector-icon97,
+  .vector-icon98,
+  .vector-icon99 {
+    position: absolute;
+    height: 0.17%;
+    width: 1.36%;
+    top: 45.54%;
+    right: 12.61%;
+    bottom: 54.29%;
+    left: 86.03%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .vector-icon100,
+  .vector-icon97,
+  .vector-icon98,
+  .vector-icon99 {
+    top: 45.84%;
+    bottom: 53.99%;
+  }
+  .vector-icon100,
+  .vector-icon98,
+  .vector-icon99 {
+    width: 3.02%;
+    top: 46.14%;
+    bottom: 53.7%;
+    left: 84.37%;
+  }
+  .vector-icon100,
+  .vector-icon99 {
+    height: 0.5%;
+    width: 1.45%;
+    top: 45.54%;
+    right: 14.14%;
+    bottom: 53.96%;
+    left: 84.41%;
+  }
+  .vector-icon100 {
+    height: 0.53%;
+    width: 5.41%;
+    top: 43.99%;
+    right: 11.41%;
+    bottom: 55.48%;
+    left: 83.18%;
+    opacity: 0.35;
+  }
+  .vector-icon101 {
+    position: absolute;
+    height: 1.02%;
+    width: 6.35%;
+    top: 43.14%;
+    right: 10.9%;
+    bottom: 55.84%;
+    left: 82.75%;
+  }
+  .vector-icon101,
+  .vector-icon102,
+  .vector-icon103 {
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .vector-icon102 {
+    position: absolute;
+    height: 0.26%;
+    width: 6.35%;
+    top: 43.5%;
+    right: 10.9%;
+    bottom: 56.24%;
+    left: 82.75%;
+  }
+  .vector-icon103 {
+    height: 100%;
+    width: 100%;
+    top: -1.25%;
+    right: 0;
+    bottom: 1.25%;
+    left: 0;
+  }
+  .b,
+  .texts,
+  .vector-icon103 {
+    position: absolute;
+  }
+  .b {
+    height: 20.84%;
+    width: 40.19%;
+    top: 36.67%;
+    left: 28.62%;
+    display: inline-block;
+  }
+  .texts {
+    height: 28.98%;
+    width: 36.46%;
+    top: 0;
+    right: 46.89%;
+    bottom: 71.02%;
+    left: 16.65%;
+    overflow: hidden;
+  }
+  .vector-container,
+  .vector-parent {
+    position: absolute;
+    height: 82.23%;
+    width: 53.36%;
+    top: 13%;
+    right: 13.45%;
+    bottom: 4.78%;
+    left: 33.18%;
+  }
+  .vector-parent {
+    height: 50.62%;
+    width: 32.21%;
+    top: 31.18%;
+    right: 58.86%;
+    bottom: 18.2%;
+    left: 8.93%;
+  }
+  .vector-icon104,
+  .vector-icon105,
+  .vector-icon106 {
+    position: absolute;
+    height: 20.88%;
+    width: 31.41%;
+    top: 0;
+    right: 50.07%;
+    bottom: 79.12%;
+    left: 18.52%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .vector-icon105,
+  .vector-icon106 {
+    height: 13.87%;
+    width: 21.16%;
+    top: 80.77%;
+    right: 78.84%;
+    bottom: 5.36%;
+    left: 0;
+  }
+  .vector-icon106 {
+    height: 9.48%;
+    width: 14.57%;
+    top: 86.81%;
+    right: 51.32%;
+    bottom: 3.71%;
+    left: 34.11%;
+  }
+  .objects-icon,
+  .objects-icon1 {
+    position: absolute;
+    top: 187px;
+    left: 115px;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+  }
+  .objects-icon1 {
+    top: 460px;
+    left: 611px;
+    width: 20px;
+    height: 20px;
+  }
+  .ellipse-div {
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    border: 4px solid #337ab7;
+    width: 52px;
+    height: 52px;
+  }
+  .ellipse-div,
+  .group-child3,
+  .rectangle-div {
+    position: absolute;
+    box-sizing: border-box;
+  }
+  .group-child3 {
+    top: 553px;
+    left: 423px;
+    border-radius: 50%;
+    border: 2px solid #4cd28d;
+    width: 82px;
+    height: 82px;
+  }
+  .rectangle-div {
+    top: calc(50% - 310px);
+    left: 19px;
+    backdrop-filter: blur(20px);
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid #e8e8e8;
+    width: 447px;
+    height: 636px;
+  }
+  .imgpsh-fullsize-anim-photoroom-icon {
+    position: absolute;
+    top: 32px;
+    left: 198px;
+    width: 89.7px;
+    height: 60px;
+    object-fit: cover;
+  }
+  .login1 {
+    position: absolute;
+    top: 0;
+    left: 84px;
+  }
+  .enter-your-credential {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    font-size: 12px;
+    line-height: 20px;
+    color: #666;
+  }
+  .login-parent {
+    top: 104px;
+    left: 118px;
+    width: 250px;
+    height: 60px;
+  }
+  .login-parent,
+  .sheet,
+  .title {
+    position: absolute;
+  }
+  .sheet {
+    top: 0;
+    left: 0;
+    border-radius: 4px;
+    background-color: #337ab7;
+    width: 394px;
+    height: 48px;
+  }
+  .title {
+    top: 14px;
+    left: 176px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .sheet-parent {
+    position: absolute;
+    top: 351px;
+    left: 3px;
+    width: 394px;
+    height: 48px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+  }
+  .group-child4,
+  .password {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .password {
+    font-weight: 500;
+  }
+  .group-child4 {
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #e8e8e8;
+    box-sizing: border-box;
+    width: 394px;
+    height: 40px;
+  }
+  .frame-icon {
+    position: absolute;
+    top: 8px;
+    left: 356px;
+    width: 24px;
+    height: 24px;
+  }
+  .enter-here {
+    position: absolute;
+    top: 13px;
+    left: 16px;
+  }
+  .password-parent,
+  .rectangle-parent {
+    position: absolute;
+    left: 0;
+    width: 394px;
+  }
+  .rectangle-parent {
+    top: 18px;
+    height: 40px;
+    color: #666;
+  }
+  .password-parent {
+    top: 0;
+    height: 58px;
+  }
+  .forgot-password {
+    position: absolute;
+    top: 65px;
+    left: 285px;
+    color: #666;
+  }
+  .group-child5,
+  .group-container {
+    position: absolute;
+    top: 228px;
+    left: 0;
+    width: 394px;
+    height: 83px;
+  }
+  .group-child5 {
+    top: 0;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #e8e8e8;
+    box-sizing: border-box;
+    width: 399px;
+    height: 40px;
+  }
+  .enter-here1 {
+    position: absolute;
+    top: 13px;
+    left: 20px;
+    display: inline-block;
+    width: 72.3px;
+  }
+  .e-mail-parent,
+  .rectangle-group {
+    position: absolute;
+    left: 0;
+    width: 399px;
+  }
+  .rectangle-group {
+    top: 18px;
+    height: 40px;
+    color: #666;
+  }
+  .e-mail-parent {
+    top: 146px;
+    height: 58px;
+  }
+  .please-select-you {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 70px);
+    font-weight: 500;
+  }
+  .group-child6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 9px;
+    background-color: #f9fcff;
+    border: 2px solid #337ab7;
+    box-sizing: border-box;
+    width: 100px;
+    height: 94px;
+  }
+  .patient-wrapper {
+    position: absolute;
+    top: 54px;
+    left: 3px;
+    width: 43px;
+    height: 18px;
+  }
+  .group-child7,
+  .group-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 48px;
+    height: 48px;
+  }
+  .group-div {
+    top: 11px;
+    left: 26px;
+    height: 72px;
+  }
+  .group-child8,
+  .rectangle-container {
+    position: absolute;
+    top: 28px;
+    left: 0;
+    width: 100px;
+    height: 94px;
+  }
+  .group-child8 {
+    top: 0;
+    border-radius: 9px;
+    background-color: #f9fcff;
+  }
+  .practitioner-wrapper {
+    position: absolute;
+    top: 54px;
+    left: 0;
+    width: 70px;
+    height: 18px;
+  }
+  .group-child9,
+  .group-parent1 {
+    position: absolute;
+    top: 0;
+    left: 11px;
+    width: 48px;
+    height: 48px;
+  }
+  .group-parent1 {
+    top: 11px;
+    left: 15px;
+    width: 70px;
+    height: 72px;
+  }
+  .rectangle-parent1 {
+    position: absolute;
+    top: 28px;
+    left: 116px;
+    width: 100px;
+    height: 94px;
+  }
+  .please-select-you-are-a-parent {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 107.5px);
+    width: 216px;
+    height: 122px;
+  }
+  .group-parent {
+    position: absolute;
+    top: 188px;
+    left: 43px;
+    width: 399px;
+    height: 399px;
+    font-size: 12px;
+  }
+  .sign-up {
+    color: #337ab7;
+  }
+  .ellipse-parent,
+  .no-account-container {
+    position: absolute;
+    top: 607px;
+    left: 174px;
+    font-size: 13px;
+    color: #8d8d8d;
+  }
+  .ellipse-parent {
+    top: 38px;
+    left: 773px;
+    width: 505px;
+    height: 652px;
+    font-size: 24px;
+    color: #333;
+    font-family: Poppins;
+  }
+  .login {
+    width: 1366px;
+    border-radius: 16px;
+    background-color: #fff;
+    max-width: 100%;
+    height: 728px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 14px;
+    color: #fff;
+    font-family: Inter;
+  }
+  

@@ -1,0 +1,16 @@
+MSH|^~\&|SASML|Doon Medical New|LabCorp||20240812151642||ORM^O01|||2.2
+PID|1|2|||sharma^tanya||20150506000000|F||||||||||||
+ORC|NW|2|||||routine||20240812151642|Smith^James||Brown^Michael|||||||
+IN1|1||||||||
+DG1|1|J00||Acute nasopharyngitis [common cold]|||||||||
+OBR|1|1||85027^Complete Blood Count (CBC)|routine|20240812151642|20240408151500||50^ml|Smith^James|||||blood,urine|Smith^James|||||||||||results needed before surgery|Brown^Michael|||relevant clinical information|3&& Fasting: 3, left arm && Site of Collection: left arm, withhold medications && Patient preparation instructions: withhold medications, collect early morning urine && Time-sensitive instructions: collect early morning urine |||||14|||||||||||
+OBX|1|NM|85027-1^WBC^LOINC|1|5.8|10^3/uL|4.0-11.0|N|||F||20240812170000|
+OBX|2|NM|85027-2^Hemoglobin^LOINC|1|13.5|g/dL|12.0-16.0|N|||F||20240812170000|
+OBX|3|NM|85027-3^Hematocrit^LOINC|1|40.2|%|36.0-46.0|N|||F||20240812170000|
+OBR|2|1||82947^Blood Glucose Test|routine|20240812151642|20240408151500||50^ml|Smith^James|||||blood,urine|Smith^James|||||||||||results needed before surgery|Brown^Michael|||relevant clinical information|3&& Fasting: 3, left arm && Site of Collection: left arm, withhold medications && Patient preparation instructions: withhold medications, collect early morning urine && Time-sensitive instructions: collect early morning urine |||||14|||||||||||
+OBX|1|NM|82947-1^Glucose^LOINC|1|95|mg/dL|70-99|N|||F||20240812170000|
+ZDX|||||||||||||||Differential Diagnoses or Suspected Condition: Asthma/respiratory problems~bus|
+ZMH||Patient has history of ten|||||||||||||
+ZMH||Patient has history of twenty|||||||||||||
+
+

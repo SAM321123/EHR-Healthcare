@@ -1,0 +1,46 @@
+.table-container {
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    width: 100%;
+    padding: 20px;
+    margin-top: 10px;
+    overflow: auto;
+    max-width: 700px;
+    table, th, td {
+        border: 1px solid rgb(194, 194, 194);
+        border-collapse: collapse;
+        padding: 5px;
+    }
+    .select-cell{
+        display: flex;
+        align-items: center;
+        text-align: start;
+        .drop-down-container{
+            min-width: 90%;
+        }
+    }
+    .cell{
+        text-align: start;
+    }
+    .button-container {
+        display: flex;
+
+        .add {
+            margin: 10px;
+        }
+    }
+
+    .table-matrix-row {
+        position: relative;
+        .row-cross-icon {
+            position: absolute;
+            top: -9px;
+            right: -9px;
+            background: gray;
+            color: white;
+            border-radius: 13px;
+            padding: 2px;
+            cursor: pointer
+        }
+    }
+}

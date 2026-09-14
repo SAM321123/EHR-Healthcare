@@ -1,0 +1,78 @@
+const sexualOrientation = [
+  {
+    name: 'Asexual',
+    code: 'asexual_sexual_orientation',
+    description: '',
+    globalCategoryTypeCode: 'sexual_orientation',
+    isDeleted: false,
+    isActive: true,
+  },
+  {
+    name: 'Bisexual',
+    code: 'bisexual',
+    description: '',
+    globalCategoryTypeCode: 'sexual_orientation',
+    isDeleted: false,
+    isActive: true,
+  },
+  {
+    name: 'Gay',
+    code: 'gay',
+    description: '',
+    globalCategoryTypeCode: 'sexual_orientation',
+    isDeleted: false,
+    isActive: true,
+  },
+  {
+    name: 'Heterosexual',
+    code: 'heterosexual',
+    description: '',
+    globalCategoryTypeCode: 'sexual_orientation',
+    isDeleted: false,
+    isActive: true,
+  },
+  {
+    name: 'Lesbian',
+    code: 'lesbian',
+    description: '',
+    globalCategoryTypeCode: 'sexual_orientation',
+    isDeleted: false,
+    isActive: true,
+  },
+  {
+    name: 'Pansexual',
+    code: 'pansexual',
+    description: '',
+    globalCategoryTypeCode: 'sexual_orientation',
+    isDeleted: false,
+    isActive: true,
+  },
+  {
+    name: 'Queer',
+    code: 'queer',
+    description: '',
+    globalCategoryTypeCode: 'sexual_orientation',
+    isDeleted: false,
+    isActive: true,
+  },
+  {
+    name: 'Another orientation not listed',
+    code: 'another_orientation_not_listed',
+    description: 'please specify',
+    globalCategoryTypeCode: 'sexual_orientation',
+    isDeleted: false,
+    isActive: true,
+  },
+  {
+    name: 'Prefer not to specify',
+    code: 'prefer_not_to_specify_sexual_orientation',
+    description: '',
+    globalCategoryTypeCode: 'sexual_orientation',
+    isDeleted: false,
+    isActive: true,
+  },
+];
+
+module.exports = {
+  sexualOrientation,
+};

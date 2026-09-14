@@ -1,0 +1,14 @@
+.filter-buttons-wrapper{
+  display: flex;
+  height: 36px;
+  .apply-action-button{
+    box-shadow: none;
+    margin-right: 12px;
+  }
+  .reset-action-button{
+    background-color: #fff;
+    color: #9D9D9D;
+    box-shadow: none;
+    border: 1px solid #9D9D9D,
+  }
+}

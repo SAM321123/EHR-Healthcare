@@ -1,0 +1,12 @@
+.form-intake {
+  position: relative;
+  .intake-form-disable {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    pointer-events: none;
+    cursor: not-allowed;
+  }
+}

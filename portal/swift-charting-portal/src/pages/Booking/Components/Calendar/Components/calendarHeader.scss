@@ -1,0 +1,35 @@
+.calendar-header-filter-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  .next-prev-wrapper{
+      display: inline-flex;
+      flex: 0.95;
+      padding: 8px;
+    
+      .icon-wrapper{
+        cursor: pointer;
+        border-radius: 50%;
+        border: 1px solid #E8E8E8;
+        width: 24px;
+        height: 24px;
+        margin: 2px;
+        color:#84818A;
+
+      }
+      .date-format{
+        font-family: poppins, sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-left: 15px;
+        margin-right: 15px;
+      }
+  }
+  .select-filter-wrapper{
+      display: flex;
+      justify-content: space-evenly;
+  }
+}

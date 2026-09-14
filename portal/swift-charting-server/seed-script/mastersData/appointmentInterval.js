@@ -1,0 +1,80 @@
+const appointmentInterval = [
+    {
+      name: 'No interval',
+      code: '0_interval',
+      description: '',
+      globalCategoryTypeCode: 'appointment_interval',
+      isDeleted: false,
+      isActive: true,
+      sortOrder: 1,
+
+    },
+    {
+      name: '10 minutes',
+      code: '10_minutes',
+      description: '',
+      globalCategoryTypeCode: 'appointment_interval',
+      isDeleted: false,
+      isActive: true,
+      sortOrder: 2,
+    },
+    {
+        name: '15 minutes',
+        code: '15_minutes',
+        description: '',
+        globalCategoryTypeCode: 'appointment_interval',
+        isDeleted: false,
+        isActive: true,
+        sortOrder: 3,
+      },
+      {
+        name: '20 minutes',
+        code: '20_minutes',
+        description: '',
+        globalCategoryTypeCode: 'appointment_interval',
+        isDeleted: false,
+        isActive: true,
+        sortOrder: 4,
+      },
+      {
+        name: '30 minutes',
+        code: '30_minutes',
+        description: '',
+        globalCategoryTypeCode: 'appointment_interval',
+        isDeleted: false,
+        isActive: true,
+        sortOrder: 5,
+      },
+      {
+        name: '45 minutes',
+        code: '45_minutes',
+        description: '',
+        globalCategoryTypeCode: 'appointment_interval',
+        isDeleted: false,
+        isActive: true,
+        sortOrder: 6,
+      },
+      {
+        name: '1 hour',
+        code: '60_minutes',
+        description: '',
+        globalCategoryTypeCode: 'appointment_interval',
+        isDeleted: false,
+        isActive: true,
+        sortOrder: 7,
+      },
+      {
+        name: '2 hours',
+        code: '2_hours',
+        description: '',
+        globalCategoryTypeCode: 'appointment_interval',
+        isDeleted: false,
+        isActive: true,
+        sortOrder: 8,
+      },
+
+  ];
+  module.exports = {
+    appointmentInterval,
+  };
+  

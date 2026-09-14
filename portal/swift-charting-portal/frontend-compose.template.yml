@@ -1,0 +1,7 @@
+version: '3.9'
+
+services:
+  frontend:
+    image: ${ECR_REGISTRY}:${TAG}
+    ports:
+      - "4000:80"

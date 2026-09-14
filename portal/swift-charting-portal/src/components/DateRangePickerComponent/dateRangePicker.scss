@@ -1,0 +1,20 @@
+/* dateRangePicker.scss */
+.date-range-picker {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .clear-icon {
+    color: #999;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+  
+  .clear-icon:hover {
+    color: red;
+  }
+  .date-picker-style .MuiInputBase-root {
+    width: 200px ;
+    height: 45px ;
+}

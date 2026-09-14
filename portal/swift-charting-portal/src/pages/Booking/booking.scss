@@ -1,0 +1,23 @@
+.booking-container{
+  .calendar-views{
+      display: flex;
+      width: 113px;
+      height: 40px;
+      border: 1px solid #E8E8E8;
+      border-radius: 2px;
+      background: #fff;
+      .calendar-view{
+         display: flex;
+        width: 50%;
+        border-right: 1px solid #E8E8E8;
+        padding: 12px 24px;
+        cursor: pointer;
+      }
+      .list-view{
+         display: flex;
+        width: 50%;
+        padding: 12px 24px;
+        cursor: pointer;
+      }
+  }
+}

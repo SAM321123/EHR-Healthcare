@@ -1,0 +1,25 @@
+.searchInput {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    padding: 5.84px 11.68px;
+    gap: 1vw;
+    width: auto;
+    min-width: 200px;
+    height: 31.15px;
+    border-radius:3.89px;
+    font-weight: 400;
+    line-height: 17.52px;
+    width: 100%;
+
+    .right_container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .close_icon {
+            margin-right: 10px;
+            cursor: pointer;
+        }
+    }
+}

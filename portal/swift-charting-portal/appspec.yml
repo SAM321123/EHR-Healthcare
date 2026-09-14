@@ -1,0 +1,15 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: .
+file_exists_behavior: OVERWRITE
+hooks:
+  BeforeInstall:
+    - location: before_install.sh
+      timeout: 300
+      ignoreErrors: false
+  AfterInstall:
+    - location: after_install.sh
+      timeout: 300
+      ignoreErrors: false

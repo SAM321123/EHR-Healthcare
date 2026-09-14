@@ -1,0 +1,33 @@
+.dashboard-list-container{
+    flex: 1 1;
+    display: flex;
+    -moz-flex-direction: column;
+    flex-direction: column;
+    -ms-align-self: stretch;
+    align-self: stretch;
+    background: rgb(234,240,247);
+    padding: 0.4rem;
+    min-height: 50px;
+    padding-right: 0px;
+    margin-right: 14px;
+    height: 60vh;
+    align-items: self-start;
+    box-shadow: inset 0 0 5px #ebf1f8;
+    border-radius: 5px;
+    overflow-y: auto;
+    min-width: 238px;
+    h4 {
+        position: relative;
+        display: block;
+        margin-block-start: 0.33em;
+        margin-block-end: 0.33em;
+        margin-inline-start: 0.33rem;
+        margin-inline-end: 0px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 21px;
+        opacity: 1;
+        font-family: poppins, sans-serif;
+        color: #303030;
+    }
+}

@@ -1,0 +1,325 @@
+const modules = [
+    {
+        name: 'Dashboard',
+        code: 'dashboard',
+        route: '/dashboard',
+        apiRoute: 'dashboard',
+    },
+    {
+        name: 'Patient',
+        code: 'patient',
+        route: '/patient',
+        apiRoute: 'patient',
+    },
+    ////////////////NESTED PATIENT MODULE///////////////////////////////////
+    {
+        name: 'Summary',
+        code: 'patientSummary',
+        route: '/patient/detail/:patientId/summary',
+        apiRoute: 'patient',
+    },
+    {
+        name: 'Demographic',
+        code: 'patientDemographic',
+        route: '/patient/detail/:patientId/demographic/edit',
+        apiRoute: 'patient',
+    },
+    {
+        name: 'Diagnosis',
+        code: 'diagnosis',
+        route: '/patient/detail/:patientId/diagnosis',
+        apiRoute: 'diagnosis',
+    },
+    {
+        name: 'Vitals',
+        code: 'vitals',
+        route: '/patient/detail/:patientId/vitals',
+        apiRoute: 'vitals',
+    },
+    {
+        name: 'Medication',
+        code: 'patientmedication',
+        route: '/patient/detail/:patientId/medications',
+        apiRoute: 'patientmedication',
+    },
+    {
+        name: 'E-Rx',
+        code: 'md-toolbox',
+        route: '/patient/detail/:patientId/medications',
+        apiRoute: 'md_toolbox',
+    },
+    {
+        name: 'Medication Schedule',
+        code: 'medication_schedule',
+        route: '/patient/detail/:patientId/medications',
+        apiRoute: 'medication_schedule',
+    },
+    {
+        name: 'EMAR',
+        code: 'emar',
+        route: '/patient/detail/:patientId/medications/emar',
+        apiRoute: 'emar',
+    },
+    {
+        name: 'Form',
+        code: 'form',
+        route: '',
+        apiRoute: 'form',
+    },
+    {
+        name: 'History',
+        code: 'medical_history',
+        route: '/patient/detail/:patientId/patient-history',
+        apiRoute: 'all_patient_history',
+    },
+    {
+        name: 'Family History',
+        code: 'family_history',
+        route: '/patient/detail/:patientId/patient-history',
+        apiRoute: 'family_history',
+    },
+    {
+        name: 'Social History',
+        code: 'socialHistory',
+        route: '/patient/detail/:patientId/patient-history',
+        apiRoute: 'all_patient_history',
+    },
+    {
+        name: 'Appointment',
+        code: 'appointment',
+        route: '/patient/detail/:patientId/appointments',
+        apiRoute: 'appointment',
+    },
+    {
+        name: 'Insurance',
+        code: 'insurance',
+        route: '/patient/detail/:patientId/insurance',
+        apiRoute: 'insurance',
+    },
+    {
+        name: 'Emergency Contact',
+        code: 'emergencycontact',
+        route: '/patient/detail/:patientId/emergency-contact',
+        apiRoute: 'emergencycontact',
+    },
+    {
+        name: 'Lab Orders',
+        code: 'labRadiology',
+        route: '/patient/detail/:patientId/lab-orders',
+        apiRoute: 'labs_radiology',
+    },
+    {
+        name: 'Documents',
+        code: 'documents',
+        route: '/patient/detail/:patientId/documents',
+        apiRoute: 'patientdocument',
+    },
+    {
+        name: 'Treatment Plan',
+        code: 'treatmentplan',
+        route: '/patient/detail/:patientId/treatment-plan',
+        apiRoute: 'treatmentplan',
+    },
+    {
+        name: 'Forms',
+        code: 'patientForms',
+        route: '/patient/detail/:patientId/forms/',
+        apiRoute: 'patient_form',
+    },
+    {
+        name: 'Patient Encounters',
+        code: 'encounter',
+        route: '/patient/detail/:patientId/encounters',
+        apiRoute: 'encounters',
+    },
+    {
+        name: 'Allergies',
+        code: 'allergies',
+        route: '/patient/detail/:patientId/allergies',
+        apiRoute: 'allergies',
+    },
+    {
+        name: 'Eligibility Check',
+        code: 'eligibility_check_history',
+        route: '/patient/detail/:patientId/eligibility-check-history',
+        apiRoute: 'eligibility_check_history',
+    },
+    {
+        name: 'Homework',
+        code: 'homework',
+        route: '/patient/detail/:patientId/homework',
+        apiRoute: 'homework',
+    },
+    /////////////////////////////////////////////////////////////
+    {
+        name: 'Scheduling',
+        code: 'scheduling',
+        route: '/scheduling',
+        apiRoute: 'appointment',
+    },
+    {
+        name: 'Encounter',
+        code: 'encounters',
+        route: '/encounters',
+        apiRoute: 'encounters',
+    },
+    {
+        name: 'LabRadiology',
+        code: 'labs_radiology',
+        route: '/lab-orders',
+        apiRoute: 'labs_radiology',
+    },
+    {
+        name: 'Medical Billing',
+        code: 'medicalBilling',
+        route: '/medical-billing',
+        apiRoute: '',
+    },
+    {
+        name: 'Analytics And Reporting',
+        code: 'analytics_and_reporting',
+        route: '/analytics-and-reporting',
+        apiRoute: 'analytics_and_reporting',
+    },
+    {
+        name: 'Messages',
+        code: 'messages',
+        route: '/messages',
+        apiRoute: 'chats',
+    },
+    {
+        name: 'Alerts',
+        code: 'alerts',
+        route: '/alerts',
+        apiRoute: '',
+    },
+    {
+        name: 'Tasks',
+        code: 'tasks',
+        route: '/tasks',
+        apiRoute: '',
+    },
+    {
+        name: 'Fax',
+        code: 'fax',
+        route: '/fax',
+        apiRoute: '',
+    },
+    {
+        name: 'Fax Contact',
+        code: 'faxContact',
+        route: '',
+        apiRoute: 'fax_contact',
+    },
+    {
+        name: 'Fax History',
+        code: 'faxHistory',
+        route: '',
+        apiRoute: 'fax_history',
+    },
+    {
+        name: 'Form Settings',
+        code: 'form_setting',
+        route: '/forms-builder',
+        apiRoute: 'form',
+    },
+    {
+        name: 'System Settings',
+        code: 'systemSettings',
+        route: '/system-settings',
+        apiRoute: '',
+    },
+    {
+        name: 'Staff',
+        code: 'staff',
+        route: '/staff',
+        apiRoute: 'staff',
+    },
+    {
+        name: 'Booking Settings',
+        code: 'bookingSettings',
+        route: '/booking-settings',
+        apiRoute: 'staff',
+    },
+    /////////////////PATIENT PORTAL MODULE///////////////////////
+    {
+        name: 'Appointment',
+        code: 'patientPortalappointment',
+        route: '/patient-appointments',
+        apiRoute: 'appointment',
+    },
+    {
+        name: 'Shared Forms',
+        code: 'patient_form',
+        route: '/patient-form',
+        apiRoute: 'patient_form',
+    },
+    {
+        name: 'Medication',
+        code: 'patientportalmedication',
+        route: '/patient-medications',
+        apiRoute: 'patientmedication',
+    },
+    {
+        name: 'Vital',
+        code: 'patientPortalvitals',
+        route: '/patient-vitals',
+        apiRoute: 'vitals',
+    },
+    {
+        name: 'Allergies',
+        code: 'patientPortalAllergies',
+        route: '/patient-allergy',
+        apiRoute: '',
+    },
+    {
+        name: 'LabRadiology',
+        code: 'patientPortallabsRadiology',
+        route: '/patient-labRadiology',
+        apiRoute: 'labs_radiology',
+    },
+    {
+        name: 'LabRadiology Result',
+        code: 'patientPortallabsReport',
+        route: '/patient-labRadiology/lab-report/:labRadiologyId',
+        apiRoute: 'labs_radiology',
+    },
+    {
+        name: 'Messages',
+        code: 'patientPortalMessages',
+        route: '/patient-messages',
+        apiRoute: 'chats',
+    },
+    ///////////////////////////////////////////////////////////////
+    {
+        name: 'Accounts',
+        code: 'accounts',
+        route: '/accounts',
+        apiRoute: 'patient',
+    },
+    {
+        name: 'Encounter Billing',
+        code: 'encountersbilling',
+        route: '/encountersbilling',
+        apiRoute: 'encountersbilling',
+    },
+    {
+        name: 'Invoice',
+        code: 'invoice',
+        route: '/invoice',
+        apiRoute: 'invoice',
+    },
+    {
+        name: 'Claim',
+        code: 'claims',
+        route: '/claims',
+        apiRoute: 'claims',
+    },
+    
+
+];
+
+module.exports = {
+    modules,
+  };
+  

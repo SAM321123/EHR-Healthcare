@@ -1,0 +1,945 @@
+.client-logo {
+    width: 164.49px;
+     height: 110px;
+}
+.container {
+    padding: 0px;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.health-soltution h1 ,.container h2 {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 80px;
+}
+.container p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+.container h3{
+font-size: 22px;
+font-weight: 600;
+line-height: 29.48px;
+letter-spacing: 0.02em;
+
+}
+.services-name-text  {
+font-size: 22px !important;
+font-weight: 600 !important;
+line-height: 29.48px !important;
+letter-spacing: 0.02em !important;
+
+}
+.cient-home input#outlined-basic::placeholder,.cient-home .contactus-section .MuiInputBase-root p ,.cient-home textarea#component-helper::placeholder{
+    color: #777777;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    font-family: Poppins;
+}
+.contactus-section .MuiInputBase-input {
+    padding-top: 14px;
+    padding-bottom: 14px;
+
+}
+.contactus-section .textarea-input{
+height: 100px !important;
+}
+.cient-home .MuiSelect-icon {
+    color:#979797 !important
+}
+.about-us-discription,.treatment-item-discription,.services-description,.contactus-discription,.health-solution-discription  {
+    text-align: start !important;
+}
+.app-toolbar {
+    padding:0 !important;
+}
+
+.health-solution{
+    display:flex;
+    gap:77;
+    padding-top: 78px;
+}
+.abt-us-section {
+    display: flex;
+    flex-direction: row;
+    gap: 91.41px;
+    margin-top: 50px;
+}
+.abt-us-section {
+    padding:50px 0px;
+
+}
+.ourservices-section,.treatment-section {
+    padding:50px 0px;
+    display:flex;
+    gap:40px;
+    flex-direction:column;
+}
+
+.treatment-item-wrapper {
+    display: flex;
+    gap:70px;
+    flex-direction:row;
+}
+.team-section {
+    padding:30px 0px;
+    display:flex;
+    gap:40px;
+    flex-direction:column;
+}
+.contactus-section {
+    display:flex;
+    /* padding-left:139px;
+     padding-right:128px; */
+     padding-top:100px;
+     padding-bottom:100px;
+}
+.background-image-section{
+    padding:50px 0px;
+
+}
+.banner-image {
+    background-color: rgb(241, 241, 241);
+    border-radius: 50%;
+    width: 557px;
+    height: 557px;
+    /* background-image: url(/static/media/intro.7df5c79….png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.services-name {
+    position: absolute;
+    left: 31px;
+    bottom: -39px;
+}
+.services-name > div {
+    background-color: #337AB7;
+    padding: 21px 30px 21px 18px;
+    width: 240px;
+    border-radius: 7.5px;
+}
+.services-name-text {
+    font-size: 22px;
+}
+.services-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.services-images-wrapper img {
+    width: 350px;
+    height: 233px;
+    border-radius: 10px;
+}
+.services-description-wrapper{
+    margin-top: 59px;
+}
+.treatment-item-image-wrapper{
+    width: 540px;
+    height: 420px;
+}
+.treatment-item-wrapper:nth-child(2){
+    flex-direction: row-reverse;
+}
+.contact-left-section {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 40px;
+}
+.abt-us-section.container img {
+    width: 410.59px;
+    height: 420px;
+    align-self: flex-end;
+
+}
+.footer-section.container {
+    display: flex;
+    gap: 65px;
+    flex-direction: column;
+}
+.footer-section.container .footer-2{
+    display: flex;
+    gap: 75px;
+    text-wrap: nowrap;
+    justify-content: space-between;
+}
+.health-solution-discription {
+font-size: 16px  !important;
+font-weight: 400 !important;
+line-height: 26px !important;
+
+}
+.health-soltution{
+    display: flex;
+    gap: 77px;
+    padding-bottom: 55px;
+    padding-top: 78px;
+    height: 709px;
+    background-position-x: center !important;
+    background-size: 315px 110px !important;
+    background-repeat: no-repeat !important;
+    background: url("../../../public/assets/images/client/clientPulseOne.png");
+
+}
+.main-hero-section {
+    background-position-x: -30px !important;
+    background-size: 342px 120px !important;
+    background-repeat: no-repeat !important;
+    background-image:  url("../../../public/assets/images/client/clientPulseTwo.png");
+    background-position-y: 65%;
+}
+.outter-main-hero-section {
+    background-position-x: right !important;
+    background-size: 315px 110px !important;
+    background-repeat: no-repeat !important;
+    background-image:  url("../../../public/assets/images/client/clientPulseThree.png");
+    background-position-y: 94%;
+}
+.content-inner-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+ 
+.ourservices-section-title-wrapper,.team-section-title-wrapper,.treatment-section-title-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+}
+.footer-wrapper {
+    padding: 50px;
+}
+
+.arrow-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    justify-content: center;
+    margin-top: 40px;
+}
+.arrow-image-wrapper{
+    padding: 7px 33px;
+}
+.arrow-image-wrapper img {
+    width: 30px;
+    height: 30px;
+}
+.team-img {
+    max-width: 350.75px;
+    height: auto;
+}
+.content-wrapper {
+    max-width: 536px;
+}
+.banner-image {
+
+    position: absolute;
+}
+.banner-image-wrapper{
+    position: relative;
+}
+.how-it-work-step-second-wrapper {
+    margin-top: 255px;
+}
+.how-it-work-main-section {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 45px;
+}
+.background-image-section {
+    position: relative;
+    padding: ;
+    /* Set the dimensions and other styles for the container */
+}
+.background-image-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../../../public/assets/images/client/Process.png") no-repeat;
+    background-size: 86%;
+    background-position-y: 158px;
+    background-position-x: -20px;
+
+    z-index: -1;
+    pointer-events: none;
+    transform-origin: top right;
+}
+.how-it-work-first-section{
+    display: flex;
+    flex-direction: column;
+    gap:60.79px;
+
+}
+
+.how-it-work-first-container{
+    display: flex;
+    flex-direction: column;
+    gap:13.88px;
+    padding-top: 55.12px;
+   
+}
+.how-it-work-discription-inner-wrapper p {
+    text-align: left;
+
+}
+.how-it-work-discription-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap:22.08px
+}
+.how-it-work-stepper-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.twoFactorAuthentication-wrapper{
+    position: absolute;
+    top: 45px;
+}
+.stepper-first-wrapper{
+    margin-top: 50px;
+}
+.how-it-work-first-section .how-it-work-stepper-wrapper {
+    max-width: 272px;
+}
+.how-it-work-step-second-wrapper .how-it-work-stepper-wrapper {
+    max-width: 230px;
+    
+}
+.how-it-work-step-one-wrapper {
+    text-align: -webkit-right;
+}
+.how-it-work-step-third-wrapper .how-it-work-stepper-wrapper {
+    max-width: 257px;
+}
+.work-description p {
+    text-align: left;
+
+}
+
+.work-count span {
+    float: right !important;
+}
+
+.how-it-work-first-section {
+    width: 35%;
+    margin-right: 112px;
+}
+
+.how-it-work-step-second-container,.how-it-work-step-third-container {
+    width: 25%;
+}
+
+.step-count {
+font-size: 187.53px;
+font-weight: 900;
+line-height: 187.53px;
+letter-spacing: -0.02em;
+text-align: left;
+}
+.step-title{
+font-size: 16px;
+font-weight: 600;
+line-height: 26px;
+text-align: left;
+
+}
+.step-discription{
+font-size: 14px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+
+}
+
+.how-it-work-step-one-wrapper .work-count {
+    width: 75.01px;
+    height: 188px;
+    display: flex;
+    align-items: flex-end;
+}
+.how-it-work-step-second-wrapper  .work-count{
+    width: 107.02px;
+    height: 188px;
+    display: flex;
+    align-items: flex-end;
+}
+.how-it-work-step-third-wrapper  .work-count {
+    width: 116.02px;
+    height: 188px;
+    display: flex;
+    align-items: flex-end;
+}
+.stepper-first-wrapper {
+    display: flex;
+    gap:2.5px
+}
+
+
+.process-count {
+    display: flex;
+    flex: 1;
+    align-self: flex-end;
+}
+.twoFactorAuthentication-wrapper {
+    width: 58.84px;
+    height: 58.84px;
+    border-radius: 18.39px;
+    padding: 16px 14.83px;
+}
+
+.how-it-work-step-third-wrapper {
+    position: relative;
+}
+.how-it-work-step-third-wrapper .twoFactorAuthentication-wrapper {
+    position: absolute;
+    top: 80px;
+}
+.twoFactorAuthentication-wrapper img{
+    width:28px;
+    height:28px;
+
+}
+.hamburger {
+    order: 3;
+}
+.header-wrapper{
+    padding-top: 16px !important;
+}
+.hamburger {
+    margin-left: 30px;
+}
+.hamburger button {
+    margin: 0 !important;
+}
+.contactus-section .MuiInputBase-root p{
+    text-align: start;
+}
+.contactus-section .MuiFormHelperText-root{
+    text-align: start;
+}
+.submitnow-wrapper{
+    margin-top: 16px;
+}
+.arrow-image-wrapper:hover {
+    cursor: pointer;
+}
+.health-soltution{
+    position: relative;
+}
+.searc-bar-background {
+
+    background-image: url("../../../public/assets/images/client/searchBarShadow.png");
+    position: absolute;
+    max-width: 807px;
+    width: 100%;
+    z-index: 1;
+    background-size: 807px 99px;
+    background-repeat: no-repeat;
+    background-position-y: 19px;
+    padding-bottom: 89px;
+    bottom: 0;
+    background-position-x: -35px;
+}
+.searc-bar-wrapper {
+    background: #FFFFFF;
+    padding:12px;
+    display: flex;
+    align-items: center;
+    padding-left:25px !important;
+    border-radius: 8px;
+
+}
+
+.searc-bar-wrapper .MuiGrid-item:first-child {
+    border-right: 1px solid #E1E3E8;
+}
+
+.searc-bar-wrapper .MuiGrid-container {
+    gap:20px !important
+}
+
+.searc-bar-wrapper .MuiGrid-item{
+    padding: 0px;
+}
+.searc-bar-wrapper .MuiFormLabel-root{
+
+}
+.searc-bar-wrapper .MuiOutlinedInput-notchedOutline{
+    border: none;
+}
+.searc-bar-wrapper .MuiInputBase-root {
+    padding: 0 !important;
+}
+.searc-bar-wrapper input {
+    padding: 0 !important;
+    color: #337AB7;
+    font-size: 16px;
+    font-weight: 600;
+}
+.searc-bar-wrapper .MuiSvgIcon-root {
+    display: none;
+}
+.searc-bar-wrapper .MuiGrid-root {
+    margin: 0 !important;
+}
+.linkTags {
+    text-decoration: none !important; 
+}
+.linkTags span {
+    color: #000;
+}
+.submitbtn {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    height: auto;
+}
+
+button#bookbtn {
+    padding: 9.5px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28.5px;
+    height: auto;
+}
+
+button#bookbtnsecond {
+    padding: 9.5px 24px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28.5px;
+    height: auto;
+}
+button#get-started {
+    padding: 8.56px 49.44px;
+    font-size: 14.71px;
+    font-weight: 600;
+    line-height: 26.2px;
+    height: auto;
+}
+.services-name-text{
+    text-align: start !important;
+}
+.learnmorebuttondiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+#learmore {
+    padding: 9.5px 20px;
+}
+@media (max-width:1250px ) {
+    .banner-image{
+        position: inherit;
+        width: 500px;
+        height: 500px;
+    }
+    .health-soltution{
+        height: auto;
+    }
+}
+@media (max-width:1110px ){
+    .banner-image {
+        position: inherit;
+        width: 330px;
+        height: 330px;
+    }
+    .how-it-work-first-section {
+        width: 40%;
+        margin-right: 23px;
+    }
+    .cient-home > div {
+        padding: 0px 50px;
+    }
+    .treatment-section , .contactus-section ,.health-soltution , .abt-us-section , .ourservices-section ,.team-section-wrapper,.footer-wrapper,.background-image-section {
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+
+}
+@media (max-width:1024px ){
+    .how-it-work-step-second-wrapper .twoFactorAuthentication-wrapper {
+        top: 58px;
+    }
+    .how-it-work-step-third-wrapper .twoFactorAuthentication-wrapper{
+        top: 108px;
+    }
+    .team-section {
+        padding:0px 0px;
+
+    }
+    .cient-home > div {
+        padding: 0px 40px;
+    }
+    .treatment-section , .contactus-section ,.health-soltution , .abt-us-section , .ourservices-section ,.team-section-wrapper,.footer-wrapper,.background-image-section {
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+    .health-soltution{
+        height: 600px;
+    }
+    .twoFactorAuthentication-wrapper{
+top: 55px;
+    }
+    .how-it-work-step-one-wrapper {
+        margin-top: -52px;
+    }
+
+
+}
+@media (max-width:913px ){
+    .health-soltution {
+        padding: 50px 20px !important;
+    }
+    .health-soltution.MuiBox-root.css-0 , .abt-us-section.container {
+        flex-direction: column;
+    }
+    .abt-us-section ,.services-box ,.treatment-item-wrapper, .treatment-item-wrapper > div, .contact-left-section, .footer-section.container .footer-2{
+        gap: 20px;
+    }
+    .abt-us-section.container img , .logo-sec {
+        align-self: center;
+    }
+    .banner-image-wrapper {
+        text-align: -webkit-center;
+    }
+    .services-name {
+        left: 0px;
+        bottom: -25px;
+    }
+    .services-name > div {
+        padding: 10px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .services-name-text {
+        font-size: 18px;
+    }
+    .services-description ,.services-name-text{
+        text-align: center;
+    }
+    .services-description-wrapper{
+        margin-top: 45px;
+    }
+    .services-images-wrapper img {
+        object-fit: contain;
+        height: auto;
+    }
+    .treatment-item-image-wrapper{
+        /* width: 100%; */
+        max-width: 335px;
+        height: auto;
+    }
+    .treatment-item-wrapper > div {
+        align-self: start;
+        
+    }
+    .contactus-section {
+        padding: 50px 0px;
+    }
+    .footer-section.container {
+        justify-content: center;
+        gap: 30px;
+    }
+    .client-logo {
+        width: 124.49px;
+        height: auto;
+    }
+    .menu-item{
+        font-size: 14px !important;
+    }
+    .menu-item-wrapper{
+        gap:10px
+    }
+    .drawer-logo-wrapper .client-logo{
+        width: 85.49px;
+    }
+    .health-soltution{
+        height: 725px;
+    }
+    .background-image-section::before {
+
+        background-position-y: 181px;
+    }
+    .how-it-work-first-section{
+        gap:0px
+    }
+
+    .how-it-work-step-one-wrapper {
+        margin-top: -71px;
+    }
+    .how-it-work-step-third-wrapper{
+        margin-top: 30px;
+    }
+
+}
+
+
+
+@media (max-width:900px ){
+
+    .health-soltution{
+        height: 820px;
+    }
+    .searc-bar-wrapper .MuiGrid-item:first-child {
+        border-right: none;
+    }
+    .twoFactorAuthentication-wrapper{
+        top: 4px;
+    }
+    .stepper-first-wrapper{
+        margin-top: 0px;
+    }
+    .how-it-work-step-second-wrapper{
+        margin-top: 353px;
+    }
+    .how-it-work-step-second-wrapper .twoFactorAuthentication-wrapper{
+        top: -15px;
+    }
+    .how-it-work-stepper-wrapper{
+        margin-top: 76px;
+    }
+    .how-it-work-step-third-wrapper{
+        margin-top: 134px;
+    }
+    .how-it-work-step-third-wrapper .twoFactorAuthentication-wrapper{
+        top: 58px;
+    }
+    .how-it-work-first-section{
+        gap:16.79px;
+    }
+    .background-image-section::before {
+        background-position-y: 235px;
+        background-position-x: -26px;
+
+    }
+
+}
+
+@media (max-width:820px ){
+
+    .how-it-work-first-section {
+        gap: 1.79px;
+    }
+
+    .searc-bar-wrapper div:first-child{
+        flex-wrap: nowrap !important;
+    }
+    
+}
+
+@media (max-width:768px ){
+    .services-name-text  {
+        font-size: 16px !important;
+        font-weight: 600 !important;
+        line-height: 29.48px !important;
+        letter-spacing: 0.02em !important;
+        
+        }
+        .services-name > div {
+            padding: 10px;
+            width: 80% !important;
+            margin: 0 auto;
+        }
+        .how-it-work-first-section {
+            gap: 24.79px;
+        }
+        .how-it-work-step-second-wrapper {
+            margin-top: 400px;
+        }
+        .how-it-work-step-third-wrapper {
+            margin-top: 173px;
+            margin-left: 37px;
+        }
+        .how-it-work-step-one-wrapper .twoFactorAuthentication-wrapper {
+            position: absolute;
+            left: 0px;
+            top: 30px;
+        }
+        .how-it-work-step-second-wrapper .twoFactorAuthentication-wrapper{
+            position: absolute;
+            top: 10px;
+        }
+        .how-it-work-step-third-wrapper .twoFactorAuthentication-wrapper{
+            top: 95px;
+            position: absolute;
+        }
+        .health-soltution{
+            height: 780px;
+        }
+        .searc-bar-wrapper .MuiGrid-item:first-child {
+            border-right: none;
+        }
+        .searc-bar-background {
+            padding-bottom: 60px;
+        }
+
+        .background-image-section::before {
+            background-size: 86%;
+            background-position-y: 290px;
+            background-position-x: -30px;
+        }
+}
+@media (max-width:600px) {
+    .banner-image {
+        max-width: 382px;
+        width: 100%;
+        background-size: contain;
+        height: 382px;
+    }
+    .services-box , .treatment-item-wrapper , .treatment-item-wrapper:nth-child(2), .contactus-section{
+        flex-direction: column;   
+    }
+    .abt-us-section.container img {
+        width: 50%;
+        height: auto;
+    }
+    .services-images-wrapper {
+        text-align: -webkit-center;
+    }
+    .services-name > div {
+        width: 45%;
+    }
+    .services-name-text{
+        text-align: center;
+    }
+    .services-name {
+        margin-top: -58px;
+        position: inherit;
+    }
+    .treatment-item-image-wrapper {
+        width: 100%;
+        max-width:100%;
+    }
+    .treatment-item-wrapper > div {
+        align-self: center;
+    }
+    .contactus-section.container {
+        gap:20px;
+    }
+    .cient-home > div {
+        padding: 0px 20px;
+    }
+    .treatment-section , .contactus-section,.background-image-section {
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+    .how-it-work-first-section .how-it-work-stepper-wrapper,.how-it-work-step-second-wrapper .how-it-work-stepper-wrapper,.how-it-work-step-third-wrapper .how-it-work-stepper-wrapper{
+        max-width: 100%;
+    }
+    .how-it-work-first-section{
+        width: 100%;
+    }
+    .how-it-work-main-section{
+        flex-direction: column;
+    }
+    .how-it-work-step-second-container, .how-it-work-step-third-container{
+        width: 100%;
+    }
+    .how-it-work-step-second-wrapper,.how-it-work-step-third-wrapper{
+        margin-top: 0px;
+    }
+    .how-it-work-main-section{
+        gap: 20px;
+    }
+    .twoFactorAuthentication-wrapper{
+        display: none;
+    }
+    .background-image-section::before{
+        display: none;
+    }
+    .searc-bar-background{
+        position: relative;
+
+    }
+    .searc-bar-wrapper {
+        flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    padding-left: 12px !important;
+    }
+    .health-soltution{
+        height: auto;
+        display: block;
+    }
+    .content-wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .searc-bar-wrapper button{
+        width: 100%;
+    }
+    .banner-image-wrapper {
+        display: none;
+    }
+    .searc-bar-wrapper .MuiGrid-item:first-child {
+        border-right: none;
+    }
+    .searc-bar-background {
+        background-size: 100%;
+        background-position-y: 78px;
+        padding-bottom: 25px;
+        background-position-x: left;
+    }
+    .searc-bar-wrapper{
+        gap: 21px;
+    }
+    .how-it-work-first-container{
+        padding-top: 0px;
+    }
+    
+}
+
+@media (max-width:550px){
+    .searc-bar-background{
+        background-position-y: 84px;
+        
+    }
+}
+
+
+@media (max-width:430px){
+    .searc-bar-background{
+        background-position-y: 165px;
+        
+    }
+    .searc-bar-wrapper div:first-child{
+        flex-wrap: wrap !important;
+    }
+    .health-soltution h1, .container h2 {
+        font-size: 45px;
+    }
+    
+}
+
+
+@media (max-width:390px){
+    .searc-bar-background{
+        background-position-y: 172px;
+        
+    }
+    
+    .health-soltution h1, .container h2 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width:320px){
+    .health-soltution h1, .container h2 {
+        font-size: 35px;
+    }
+}

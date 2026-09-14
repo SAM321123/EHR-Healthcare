@@ -1,0 +1,28 @@
+# Stage 1: Build the application
+FROM node:18 as builder
+
+# Install specific npm version
+RUN npm install -g yarn --force
+
+# Set the working directory
+WORKDIR /app
+COPY . ./
+
+# Build the main app
+RUN yarn install
+RUN yarn add @babel/plugin-proposal-private-property-in-object --dev
+RUN yarn run build
+
+# Stage 2: Serve the application using NGINX
+FROM nginx:latest
+
+# Remove default NGINX website and copy the built application from the previous stage
+RUN rm -rf /usr/share/nginx/html/*
+COPY --from=builder /app/build /usr/share/nginx/html
+COPY default.conf /etc/nginx/conf.d/default.conf
+
+# Expose the desired port (typically 80 for NGINX)
+EXPOSE 80
+
+# Start NGINX
+CMD ["nginx", "-g", "daemon off;"]

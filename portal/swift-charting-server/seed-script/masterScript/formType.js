@@ -1,0 +1,50 @@
+const formType = [
+    {
+      name: 'Questionnaires',
+      code: 'FT_QUESTIONNAIRES',
+      description: 'Questionnaires',
+      globalCategoryTypeCode: 'form_type',
+      isDeleted: false,
+      isActive: true,
+      sortOrder: 1,
+    },
+    {
+      name: 'Consent Forms',
+      code: 'FT_CONSENT_FORMS',
+      description: 'Consent Forms',
+      globalCategoryTypeCode: 'form_type',
+      isDeleted: false,
+      isActive: true,
+      sortOrder: 2,
+    },
+    {
+      name: 'Note Templates',
+      code: 'FT_NOTE_TEMPLATES',
+      description: 'Note Templates',
+      globalCategoryTypeCode: 'form_type',
+      isDeleted: false,
+      isActive: true,
+      sortOrder: 3,
+    },
+    {
+      name: 'History Templates',
+      code: 'FT_HISTORY_TEMPLATES',
+      description: 'History Templates',
+      globalCategoryTypeCode: 'form_type',
+      isDeleted: false,
+      isActive: true,
+      sortOrder: 3,
+    },
+    {
+      name: 'Encounter Templates',
+      code: 'FT_ENCOUNTER_TEMPLATES',
+      description: 'Encounter Templates',
+      globalCategoryTypeCode: 'form_type',
+      isDeleted: false,
+      isActive: true,
+      sortOrder: 3,
+    },
+  ];
+  module.exports={
+    formType,
+  }

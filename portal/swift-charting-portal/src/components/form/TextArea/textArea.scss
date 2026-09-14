@@ -1,0 +1,25 @@
+.textarea-input {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #D7D7D7;
+  padding: 7px;
+  padding-left: 12px;
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  &:focus {
+    outline-color: #337AB7;
+  }
+  &::placeholder{
+    color:#919EAB
+  }
+}
+.textarea-input-error {
+  @extend .textarea-input;
+  border-color: #FF4842;
+  &:focus {
+    outline-color: #FF4842;
+  }
+}
