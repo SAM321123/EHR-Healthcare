@@ -350,7 +350,7 @@ const defaultScheduleData = [
 ];
 
 const googleMapApiKey =
-  'AIzaSyDx7FGH45DSNlrNmu22o4-HFdJ7StqAl-8' ||
+  '' ||
   process.env.REACT_APP_GOOGLE_MAP_API_KEY;
 
 const tabsStyling = {
